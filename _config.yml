@@ -9,7 +9,7 @@ topnav_title: nOps Documentation Site
 site_title: Documentation site for the nOps platform
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Copyright 2023
+company_name: nOps
 # this appears in the footer
 
 github_editme_path: nops-io/helpcenter/blob/main/
@@ -74,7 +74,7 @@ defaults:
       comments: false
       # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
-      sidebar: home_sidebar
+      sidebar: mydoc_sidebar
       topnav: topnav
   -
     scope:
@@ -94,7 +94,7 @@ defaults:
       comments: false
       # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
-      sidebar: home_sidebar
+      sidebar: mydoc_sidebar
       topnav: topnav
 
 # these are defaults used for the frontmatter for these file types
