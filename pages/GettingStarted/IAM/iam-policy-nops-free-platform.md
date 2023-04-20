@@ -16,7 +16,7 @@ nOps requires safe, secure, and AWS-approved cross account access to your AWS ac
 
 1.  AWS managed [ReadOnlyAccess](https://console.aws.amazon.com/iam/home#policies/arn:aws:iam::aws:policy/ReadOnlyAccess) policy, which is completely managed by AWS and is updated periodically as AWS adds new services.
 2.  Since the AWS managed ReadOnlyAccess policy contains some read access to sensitive data, nOps uses an explicit deny list which can be easily update for your own security requires. – [Explicit Deny List](#explicit-deny)
-3.  Lastly, few other policies that are necessary to create the Cost and Usage Report for Cost Visibility, Well-Architected Review and placeholders to support automating the setup for nOps ShareSave Program. [CUR](#cur) , [S3](#s3bucket), [Well-Architected](#well-architected) , [EventBridge](#eventbridge) and [Organization](#organization),
+3.  Lastly, few other policies that are necessary to create the Cost and Usage Report for Cost Visibility, Well-Architected Review and placeholders to support automating the setup for nOps ShareSave Program. [CUR](#cur),  [S3](#s3bucket), [Well-Architected](#well-architected), [EventBridge](#eventbridge), and [Organization](#organizations)
 
 **For the AWS Linked accounts, nOps uses the following policies:**
 

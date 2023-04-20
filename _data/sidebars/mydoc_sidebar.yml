@@ -85,4 +85,40 @@ entries:
           output: web
 
 
+  - title: Solutions
+    output: web
+    folderitems:
+
+    - title: Cost Optimization Recommendations
+      url: /solutions-cost-optimization-rec.html
+      output: web
+
+    - title: NAT Gateway Visibility
+      url: /solutions-nat-gateway-visibility.html
+      output: web
+
+    - title: Evaluating the Cost Impact of a Changeset
+      url: /solutions-evaluating-changeset-costs.html
+      output: web
+
+    - title: Using nSwitch to Reduce Costs
+      url: /solutions-using-nswitch-to-reduce-costs.html
+      output: web
+
+  - title: Developer
+    output: web
+    folderitems:
+
+    - title: Getting Started with the nOps API
+      url: /developer-getting-started.html
+      output: web
+
+    - title: nOps API List
+      url: /developer-api-list.html
+      output: web
+
+    - title: nSwitch Slackbot "How To" Guide
+      url: /developer-nswitch-slackbot.html
+      output: web
+
 # Copyright 2023 nOps

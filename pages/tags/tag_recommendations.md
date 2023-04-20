@@ -1,8 +1,8 @@
 ---
-title: "Troubleshooting pages"
-tagName: troubleshooting
+title: "Recommendations pages"
+tagName: recommendations
 search: exclude
-permalink: tag_troubleshooting.html
+permalink: tag_recommendations.html
 sidebar: mydoc_sidebar
 folder: tags
 ---

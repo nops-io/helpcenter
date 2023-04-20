@@ -2,6 +2,33 @@
 [
 
 {
+"title": "Developer API List",
+"tags": "getting_starteddeveloper",
+"keywords": "setup, onboarding, sharesave, api, developer",
+"url": "developer-api-list.html",
+"summary": ""
+}
+,
+
+{
+"title": "Getting started with the nOps developer API",
+"tags": "getting_startedapisharesavedeveloper",
+"keywords": "setup, onboarding, sharesave, api, developer",
+"url": "developer-getting-started.html",
+"summary": ""
+}
+,
+
+{
+"title": "The nSwitch Slackbot &quot;How To&quot; Guide",
+"tags": "onboardingsharesavenswitchdeveloper",
+"keywords": "setup, onboarding, nswitch, sharesave, slackbot",
+"url": "developer-nswitch-slackbot.html",
+"summary": ""
+}
+,
+
+{
 "title": "IAM permissions for the nOps platform",
 "tags": "getting_startedonboardingiam",
 "keywords": "iam policies, iam, setup, onboarding",
@@ -78,6 +105,42 @@
 "tags": "getting_startedonboarding",
 "keywords": "setup, onboarding",
 "url": "onboarding-aws-with-automatic-setup.html",
+"summary": ""
+}
+,
+
+{
+"title": "nOps Cost Optimization Recommendations",
+"tags": "savingsrecommendationssolutions",
+"keywords": "savings, recommendations, solutions",
+"url": "solutions-cost-optimization-rec.html",
+"summary": ""
+}
+,
+
+{
+"title": "Evaluating the Cost Impact of a Changeset",
+"tags": "savingsrecommendationssolutions",
+"keywords": "savings, recommendations, solutions",
+"url": "solutions-evaluating-changeset-costs.html",
+"summary": ""
+}
+,
+
+{
+"title": "NAT Gateway Visibility",
+"tags": "savingsrecommendationssolutions",
+"keywords": "savings, recommendations, solutions",
+"url": "solutions-nat-gateway-visibility.html",
+"summary": ""
+}
+,
+
+{
+"title": "Using nSwitch to Reduce Costs Automatically",
+"tags": "savingsrecommendationssolutions",
+"keywords": "savings, recommendations, solutions",
+"url": "solutions-using-nswitch-to-reduce-costs.html",
 "summary": ""
 }
 ,

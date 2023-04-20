@@ -1,8 +1,8 @@
 ---
-title: "Publishing pages"
-tagName: publishing
+title: "ShareSave pages"
+tagName: sharesave
 search: exclude
-permalink: tag_publishing.html
+permalink: tag_sharesave.html
 sidebar: mydoc_sidebar
 folder: tags
 ---

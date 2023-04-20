@@ -1,8 +1,8 @@
 ---
-title: "Single sourcing pages"
-tagName: single_sourcing
+title: "Single Sign-On pages"
+tagName: sso
 search: exclude
-permalink: tag_single_sourcing.html
+permalink: tag_sso.html
 sidebar: mydoc_sidebar
 folder: tags
 ---

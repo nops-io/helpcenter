@@ -1,8 +1,8 @@
 ---
-title: "Navigation pages"
-tagName: navigation
+title: "Solutions Pages"
+tagName: solutions
 search: exclude
-permalink: tag_navigation.html
+permalink: tag_solutions.html
 sidebar: mydoc_sidebar
 folder: tags
 ---
