@@ -23,7 +23,7 @@ entries:
     output: web
     folderitems:
 
-    - title: Home
+    - title: Connecting to nOps
       url: /index.html
       output: web
 
@@ -56,15 +56,15 @@ entries:
         output: web
         subfolderitems:
 
-        - title: nOps platform
+        - title: nOps platform IAM permissions
           url: /iam-policy-nops-free-platform.html
           output: web
 
-        - title: nSwitch
+        - title: nSwitch IAM permissions
           url: /iam-policy-nswitch.html
           output: web
 
-        - title: YAML file for Sharesave
+        - title: YAML file for Sharesave Setup
           url: /iam-yaml-sharesave.html
           output: web
 
@@ -76,11 +76,11 @@ entries:
           url: /sso-integration.html
           output: web
 
-        - title: SSO with Okta
+        - title: SSO integration with Okta
           url: /sso-okta.html
           output: web
 
-        - title: SSO with OneLogin
+        - title: SSO integration with OneLogin
           url: /sso-onelogin.html
           output: web
 

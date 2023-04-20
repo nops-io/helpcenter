@@ -1,7 +1,7 @@
 ---
 title: IAM permissions for nOps nSwitch
 keywords: iam policies, iam, setup, onboarding, nswitch, sharesave
-tags: [getting_started, onboarding, IAM, sharesave, nswitch]
+tags: [getting_started, onboarding, iam, sharesave, nswitch]
 sidebar: mydoc_sidebar
 permalink: iam-policy-nswitch.html
 folder: GettingStarted
@@ -22,7 +22,7 @@ _Note: To enable nSwitch recommendations for any child account, it is necessary 
 
 ## Access CUR data to analyze utilization ##
 
-The permissions required at the payer and Child account for ShareSave nSwitch Scheduler Analysis are:
+The permissions required at the payer and linked account(s) for ShareSave nSwitch are:
 
 ```json
 
@@ -61,9 +61,9 @@ nOps also required two CUR reports to be configured, with the following bucket a
 ```
 
 ## Scheduler Permissions: Lambda and Eventbridge ##
-=============================================
 
-nOps requires AWS managed [AWSLambdaBasicExecutionRole](https://console.aws.amazon.com/iam/home#policies/arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole) permissions along with the following permission for Scheduler Lambda Function to automatically create schedules with the help of [EventBridge](https://help.nops.io/en/utilize-nops-resource-scheduler-with-eventbridge-integration-to-reduce-costs-automatically/):
+
+nOps requires AWS managed [AWSLambdaBasicExecutionRole](https://console.aws.amazon.com/iam/home#policies/arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole) permissions along with the following permission for Scheduler Lambda Function to automatically create schedules with the help of [EventBridge](using-nswitch-to-reduce-costs.html):
 
 These permissions are required on the **_child account or master account where the resources to be scheduled reside_**.
 

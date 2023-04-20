@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="keywords" content="getting_started,  homepage">
-<title>Welcome to NopsDocs - the home of nOps documentation | Documentation site for the nOps platform</title>
+<title>nOpsDocs - the home of nOps documentation | Documentation site for the nOps platform</title>
 <link rel="stylesheet" href="css/syntax.css">
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -158,7 +158,7 @@
 
 
 
-  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:helpdocs@nops.io?subject=nOps documentation site feedback&body=I have some feedback about the Welcome to NopsDocs - the home of nOps documentation page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:helpdocs@nops.io?subject=nOps documentation site feedback&body=I have some feedback about the nOpsDocs - the home of nOps documentation page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
 
 </li>
 
@@ -178,7 +178,7 @@
                                 searchInput: document.getElementById('search-input'),
                                 resultsContainer: document.getElementById('results-container'),
                                 dataSource: 'search.json',
-                                searchResultTemplate: '<li><a href="{url}" title="Welcome to NopsDocs - the home of nOps documentation">{title}</a></li>',
+                                searchResultTemplate: '<li><a href="{url}" title="nOpsDocs - the home of nOps documentation">{title}</a></li>',
                     noResultsText: 'No results found.',
                             limit: 10,
                             fuzzy: true,
@@ -218,7 +218,7 @@
           
           
           
-          <li class="active"><a title="Home" href="index.html">Home</a></li>
+          <li class="active"><a title="Connecting to nOps" href="index.html">Connecting to nOps</a></li>
           
           
           
@@ -267,19 +267,19 @@
                   
                   
                   
-                  <li><a title="nOps platform" href="iam-policy-nops-free-platform.html">nOps platform</a></li>
+                  <li><a title="nOps platform IAM permissions" href="iam-policy-nops-free-platform.html">nOps platform IAM permissions</a></li>
                   
                   
                   
                   
                   
-                  <li><a title="nSwitch" href="iam-policy-nswitch.html">nSwitch</a></li>
+                  <li><a title="nSwitch IAM permissions" href="iam-policy-nswitch.html">nSwitch IAM permissions</a></li>
                   
                   
                   
                   
                   
-                  <li><a title="YAML file for Sharesave" href="iam-yaml-sharesave.html">YAML file for Sharesave</a></li>
+                  <li><a title="YAML file for Sharesave Setup" href="iam-yaml-sharesave.html">YAML file for Sharesave Setup</a></li>
                   
                   
                   
@@ -300,13 +300,13 @@
                   
                   
                   
-                  <li><a title="SSO with Okta" href="sso-okta.html">SSO with Okta</a></li>
+                  <li><a title="SSO integration with Okta" href="sso-okta.html">SSO integration with Okta</a></li>
                   
                   
                   
                   
                   
-                  <li><a title="SSO with OneLogin" href="sso-onelogin.html">SSO with OneLogin</a></li>
+                  <li><a title="SSO integration with OneLogin" href="sso-onelogin.html">SSO integration with OneLogin</a></li>
                   
                   
                   
@@ -340,7 +340,7 @@
         <!-- Content Column -->
         <div class="col-md-9" id="tg-sb-content">
             <div class="post-header">
-   <h1 class="post-title-main">Welcome to NopsDocs - the home of nOps documentation</h1>
+   <h1 class="post-title-main">nOpsDocs - the home of nOps documentation</h1>
 </div>
 
 
@@ -385,6 +385,23 @@ $('#toc').on('click', 'a', function() {
 
    <p>Welcome to the resource center for nOps.  If there is an article you’d like to see added, please let us know.  Help is only a click away in the platform with our chatbot if you still need help.</p>
 
+<p>Getting connected with the nOps platform only takes a few minutes:</p>
+
+<ol>
+  <li>First, log into your AWS Payer/Management account.</li>
+  <li>In a second tab, <a href="https://app.nops.io/accounts/signup_user">register for an nOps account</a></li>
+  <li>Verify your account, and log back in to nOps.  Don’t close your AWS tab.</li>
+  <li>In the nOps tab, you will be prompted to start setting up your AWS account.
+ <img src="https://nops-docs-img.s3.amazonaws.com/gettingstarted/gs-on-onboardingwizard.png" alt="" /></li>
+  <li>Follow the steps for the nOps Setup Wizard to finish configuring your Management/Payer account.
+    <ol>
+      <li>Provide an account name to display within nOps</li>
+      <li>Specify an S3 bucket for the Cost and Usage Report to be written</li>
+      <li>Click to launch the CloudFormation Stack</li>
+    </ol>
+  </li>
+</ol>
+
 
 
     <div class="tags">
@@ -413,7 +430,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2023 nOps. All rights reserved. <br />
- Site last generated: Apr 19, 2023 <br />
+<!--  Site last generated: Apr 20, 2023 <br /> -->
 <p><img src="images/company_logo.png" alt="Company logo"/></p>
                 </div>
             </div>

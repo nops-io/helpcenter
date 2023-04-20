@@ -3,7 +3,7 @@
 
 {
 "title": "IAM permissions for the nOps platform",
-"tags": "getting_startedonboardingIAM",
+"tags": "getting_startedonboardingiam",
 "keywords": "iam policies, iam, setup, onboarding",
 "url": "iam-policy-nops-free-platform.html",
 "summary": ""
@@ -12,7 +12,7 @@
 
 {
 "title": "IAM permissions for nOps nSwitch",
-"tags": "getting_startedonboardingIAMsharesavenswitch",
+"tags": "getting_startedonboardingiamsharesavenswitch",
 "keywords": "iam policies, iam, setup, onboarding, nswitch, sharesave",
 "url": "iam-policy-nswitch.html",
 "summary": ""
@@ -21,7 +21,7 @@
 
 {
 "title": "YAML file for nOps ShareSave",
-"tags": "getting_startedonboardingIAMsharesave",
+"tags": "getting_startedonboardingiamsharesave",
 "keywords": "iam policies, iam, setup, onboarding, sharesave",
 "url": "iam-yaml-sharesave.html",
 "summary": ""
@@ -29,7 +29,7 @@
 ,
 
 {
-"title": "Welcome to NopsDocs - the home of nOps documentation",
+"title": "nOpsDocs - the home of nOps documentation",
 "tags": "getting_started",
 "keywords": "homepage",
 "url": "index.html",
@@ -47,7 +47,7 @@
 ,
 
 {
-"title": "Onboarding Multiple AWS Accounts with CloudFormation",
+"title": "Onboarding Multiple AWS Linked Accounts with CloudFormation",
 "tags": "getting_startedonboardingcloudformation",
 "keywords": "setup, onboarding",
 "url": "onboarding-aws-with-cloudformation.html",
@@ -107,38 +107,8 @@
 "url": "sso-onelogin.html",
 "summary": ""
 }
-,
 
 
-
-
-{
-"title": "Sample post",
-"tags": "newsgetting_started",
-"keywords": "",
-"url": "samplepost.html",
-"summary": "This is some summary frontmatter for my sample post."
-}
-,
-
-
-{
-"title": "Welcome to Jekyll!",
-"tags": "news",
-"keywords": "",
-"url": "myupdate.html",
-"summary": ""
-}
-,
-
-
-{
-"title": "Test post from last year",
-"tags": "news",
-"keywords": "",
-"url": "test-post-from-last-year.html",
-"summary": ""
-}
 
 
 

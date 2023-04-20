@@ -54,12 +54,6 @@ The first page in the Link **Cloud Accounts** section informs you of the prerequ
 
 * * *
 
-**Note:**
-
-If you are adding multiple accounts after you’ve already been onboarded, go to [Create an API key](https://docs.nops.io/en/articles/5955764-getting-started-with-the-nops-developer-api) to learn how you can get the API key.
-
-* * *
-
 On the second page in the **Link Cloud Accounts** section, enter:
 
 * An API key name
@@ -86,7 +80,7 @@ To enable **StackSets** in **AWS CloudFormation**, go to **CloudFormation > Stac
 
 Before you continue with the onboarding process any further, make sure that you have:
 
-* [nOps API Key](https://docs.nops.io/en/articles/5955764-getting-started-with-the-nops-developer-api)
+* nOps API Key
     
 * IDs of Organization Units you want to onboard.
     
@@ -127,7 +121,7 @@ When the data fetching process is complete, you will see the message **Your AWS 
 
 The setup process is now complete and you will see the following screen.
 
-If you have any questions, please contact us at [help@nops.io](mailto:help@nops.io), or by phone at +1 866-673-9330.
+If you have any questions, please contact us at [help@nops.io](mailto:help@nops.io).
 
 On initial ingestion, nOps will pull the data from AWS accounts based on the following durations:
 

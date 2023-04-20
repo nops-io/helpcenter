@@ -1,7 +1,7 @@
 ---
 title: YAML file for nOps ShareSave
 keywords: iam policies, iam, setup, onboarding, sharesave
-tags: [getting_started, onboarding, IAM, sharesave]
+tags: [getting_started, onboarding, iam, sharesave]
 sidebar: mydoc_sidebar
 permalink: iam-yaml-sharesave.html
 folder: GettingStarted
@@ -55,17 +55,20 @@ The automated setup is simple, easy and takes only 5 minutes:
 To begin savings via **nOps ShareSave – Auto-Pilot Risk-free Commitment Management**, follow these steps:
 
 1.  Log in to your **AWS Payer/Management account** with your IAM user
-2.  In another tab, Log in to your **nOps Client** and head over to the **ShareSave** dashboard:[](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/604505191/bef5b26ae129b4b4ee1b16c5/Gz1kVRMX81Gq9jZARvr_A7IVvAhnHjrGlhBUwDtYJj97kMQaMVexsNDmLMPyWt_iJnAIefIUje4D9bWG3roZ3vG89b_Ja-pccTLMY4upc_i3JtKQisKqkD6c7rdD7MpGrbRjHra3AQ1K9yrFjzThtlrTPC9AJH1EZxGztTsXlDrR4kgCcyvd5pyl1A)
-3.  On the **ShareSave Opportunity** dashboard, in the **List of Opportunities** section, click the **Configure Risk Free Commitment** button:[](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/604505197/b155de782fe4ea104e0cd514/kOEYheqbyuS9UVbmc7xOCHsoKC7F78HLtO06BOrUXBHhyK5MaNmLuojFpGJKdBaItxCfGgxDiCSKNP4WGIW8WGnH499GAQjrK2dyBiWqmlvBipVmAzYLwTiNf_jALJnV2t_-z4iTmNMknZ2nK33RR0IMz1YAMOQ6WOzwMlkLjZEpj014pKTUWBTjQA)
-4.  Once you click the **Configure Risk Free Commitment** button, the following pop-up will appear:[](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/604505204/347a768573137a2fabfd2a7b/Cp70MH_w1hqcLMNNjqIV-rg90waWT3HanHYzS5wKgWxwUSapfitd21vQBTqbFhf54uCNBCg8XYINhH9lYmh4d2f7aDTmRV0RwxfQLD9Z-1X4zwa-_fLoIML7FYC2TU2VHtb-xhGQ2E35d_kgukNQWoOdPWfjFfZfLAjkYqzOsJo-5F16Yt17g6X4FQ)
+2.  In another tab, Log in to your **nOps Client** and head over to the **ShareSave** dashboard:
+  ![](https://nops-docs-img.s3.amazonaws.com/gettingstarted/gs-sharesave-tab-highlighted.png)
+3.  On the **ShareSave Opportunity** dashboard, in the **List of Opportunities** section, click the **Configure Risk Free Commitment** button:
+  ![](https://nops-docs-img.s3.amazonaws.com/gettingstarted/gs-rfcm-button-highlighted.png)
+4.  Once you click the **Configure Risk Free Commitment** button, the following pop-up will appear:
+  ![](https://nops-docs-img.s3.amazonaws.com/gettingstarted/gs-proceed.png)
     1.  If the pop-up does not appear, make sure that the pop-up isn’t being blocked by your browser.
     2.  **Before you click Proceed, make sure that you’re logged in to your AWS Payer/Management account in the same browser.**
 5.  After you click **Proceed**, nOps will take you to your AWS console’s CloudFormation **Quick create stack** page —with all the required information pre-filled  
-    **Acknowledge** and click **Create stack**:[](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/604505212/e5773e66a100d8a3c1b9cc13/0HQy_xxqekhqZ2G0RqwCcvJSJRc9rzeuI86wfgKSex4MuDg22xxe6FQLRmct8IPwbAFB93EyZLb3fm-VGip1u3qVZZsh7OdgNW-woumxlzauRd1tEAPCvsfQxVzVprc_RRGyVgj8h1i0tBcGM95jY0RFWjJFY51HRfWLRmkiWUUWk4R0unil_cmzEg)  
+    **Acknowledge** and click **Create stack**:
+    ![](https://nops-docs-img.s3.amazonaws.com/gettingstarted/gs-create-stack.png)  
     NOTE: The CloudFormation will take about 3-5mins to complete
 6.  Once the CloudFormation has completed, go to **AWS Organizations via the AWS Console** to see the two nOps ShareSave Accounts added
-
-![](https://nops-docs-img.s3.amazonaws.com/gettingstarted/gs-iam-sharesave-aws-organization.png)
+    ![](https://nops-docs-img.s3.amazonaws.com/gettingstarted/gs-iam-sharesave-aws-organization.png)
 
 ShareSave: Auto-Pilot Risk-Free Commitment Management configuration is now complete.
 
@@ -84,7 +87,7 @@ AWSTemplateFormatVersion: "2010-09-09"
 
 Description: |
   nOps.io integration role for ShareSave accounts (updated September 12, 2022)
-  For more information visit http://help.nops.io
+  For more information visit https://help.nops.io
 
 Parameters:
   S3CurBucket:
