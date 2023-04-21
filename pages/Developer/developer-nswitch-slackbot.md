@@ -85,9 +85,8 @@ folder: Developer
 ```
 ### **IAM Permissions to be attached to the nSwitch SlackBot Lambda Function:** ###
 
-![](https://help.nops.io/wp-content/uploads/2023/03/Screen_Shot_2023-03-23_at_3.07.29_PM.png)
+![](https://nops-docs-img.s3.amazonaws.com/solutions/dev-slackbot-lambda.png)
 
-![💡](https://s.w.org/images/core/emoji/14.0.0/svg/1f4a1.svg)
 
 We need to set the ACCESS_KEY above in the Lambda configuration under _**‘Environment Variables’**_
 

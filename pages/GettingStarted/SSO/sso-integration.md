@@ -8,19 +8,18 @@ folder: GettingStarted
 ---
 
 
-How to Integrate SSO in nOps
-============================
+# How to Integrate with SSO for nOps access #
+
 
 Running a secure cloud system is very important. With the new nOps SSO feature, integrating SSO from your favorite SAML 2.0 provider is a smooth and easy process. You can currently integrate [Okta](https://www.okta.com/integrate/), [OneLogin](https://www.onelogin.com/product/sso), [Azure Active Directory (Azure AD)](https://docs.microsoft.com/en-us/azure/active-directory/) amongst others.
 
 
-Getting Started
----------------
+## Getting Started ##
+
 
 To incorporate SSO in nOps, you need to configure the SSO for your SAML provider. To do that, you first need to get some credentials from your nOps dashboard.
 
-Your nOps Credentials
--------------------------
+### Your nOps Credentials ###
 
 1.  To access your **nOps SSO credentials**, navigate to your SSO Settings Page. Go to:  
     _Organizational Settings > SSO_ if you’re using the client portal  

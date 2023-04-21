@@ -1,7 +1,7 @@
 ---
 title: Onboarding AWS Accounts to nOps with Terraform
 keywords: setup, onboarding, terraform
-tags: [getting_started, onboarding, terraform]
+tags: [getting_started, onboarding]
 sidebar: mydoc_sidebar
 permalink: onboarding-aws-with-terraform.html
 folder: GettingStarted

@@ -2,6 +2,195 @@
 [
 
 {
+"title": "Add New Resources to Workloads",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesWorkloadadd-new-resources-to-workloads.html",
+"summary": ""
+}
+,
+
+{
+"title": "Adding users to nOps",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesSettingsadding-users-to-nops.html",
+"summary": ""
+}
+,
+
+{
+"title": "Agents",
+"tags": "",
+"keywords": "",
+"url": "pagesIntegrations%20and%20AgentsAgentsagents.html",
+"summary": ""
+}
+,
+
+{
+"title": "Attach Documents to Workloads",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesWorkloadattach-documents-to-workloads.html",
+"summary": ""
+}
+,
+
+{
+"title": "Automated Tagging for AWS Migration Assistance Program",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesMAPautomated-tagging-for-aws-migration-assistance-program.html",
+"summary": ""
+}
+,
+
+{
+"title": "Foundational Technical Review Report",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesFTRaws-foundation-technical-review-ftr-report.html",
+"summary": ""
+}
+,
+
+{
+"title": "Backfilling a CUR file for MAP",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesMAPbackfilling-a-cur-file.html",
+"summary": ""
+}
+,
+
+{
+"title": "Change Password",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesSettingschange-password.html",
+"summary": ""
+}
+,
+
+{
+"title": "Check if the Root Account has MFA Activated",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesSecuritycheck-if-the-root-account-has-mfa-activated.html",
+"summary": ""
+}
+,
+
+{
+"title": "Cloudwatch Agent",
+"tags": "",
+"keywords": "",
+"url": "pagesIntegrations%20and%20AgentsAgentscloudwatch-agent.html",
+"summary": ""
+}
+,
+
+{
+"title": "Commitment Management - Working with Reserved Instances",
+"tags": "cost_visibilityreportingsavings",
+"keywords": "cost reporting, cost history, cost allocation",
+"url": "cost-commitment-management-working-with-reserved-instances.html",
+"summary": ""
+}
+,
+
+{
+"title": "Cost Reporting for Cloud Resources",
+"tags": "cost_visibilityreportingsavings",
+"keywords": "cost reporting, cost history, cost allocation",
+"url": "cost-reporting-for-cloud-resources.html",
+"summary": ""
+}
+,
+
+{
+"title": "Resource Rightsizing",
+"tags": "cost_visibilityreportingsavings",
+"keywords": "cost reporting, cost history, cost allocation",
+"url": "cost-resource-rightsizing.html",
+"summary": ""
+}
+,
+
+{
+"title": "Spot Advisor - Switch to Spot Instances",
+"tags": "cost_visibilityreportingsavings",
+"keywords": "cost reporting, cost history, cost allocation",
+"url": "cost-spot-advisor.html",
+"summary": ""
+}
+,
+
+{
+"title": "Tag Explorer to Manage Tag Competency",
+"tags": "cost_visibilityreportingsavings",
+"keywords": "cost reporting, cost history, cost allocation",
+"url": "cost-tag-explorer.html",
+"summary": ""
+}
+,
+
+{
+"title": "Create Workloads",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesWorkloadcreate-workloads.html",
+"summary": ""
+}
+,
+
+{
+"title": "Creating nOps Custom Rules",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesRulescustom-rules.html",
+"summary": ""
+}
+,
+
+{
+"title": "Customize Settings",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesSettingscustomize-settings.html",
+"summary": ""
+}
+,
+
+{
+"title": "The nOps Dashboard",
+"tags": "cost_visibilityreporting",
+"keywords": "cost reporting, cost history, cost allocation",
+"url": "dashboards-nops-dashboard.html",
+"summary": ""
+}
+,
+
+{
+"title": "nOps Search DSL",
+"tags": "cost_visibilityreporting",
+"keywords": "cost reporting, cost history, cost allocation",
+"url": "dashboards-nops-dsl.html",
+"summary": ""
+}
+,
+
+{
+"title": "Data Purge",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesSettingsdata-purge.html",
+"summary": ""
+}
+,
+
+{
 "title": "Developer API List",
 "tags": "getting_starteddeveloper",
 "keywords": "setup, onboarding, sharesave, api, developer",
@@ -24,6 +213,78 @@
 "tags": "onboardingsharesavenswitchdeveloper",
 "keywords": "setup, onboarding, nswitch, sharesave, slackbot",
 "url": "developer-nswitch-slackbot.html",
+"summary": ""
+}
+,
+
+{
+"title": "Disable Notifications for a User",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesSettingsdisable-notifications-for-a-user.html",
+"summary": ""
+}
+,
+
+{
+"title": "Evaluate Risk for a Workload",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesWorkloadevaluate-risk-for-a-workload.html",
+"summary": ""
+}
+,
+
+{
+"title": "EventBridge Integration",
+"tags": "",
+"keywords": "",
+"url": "pagesIntegrations%20and%20AgentsIntegrationseventbridge-integration.html",
+"summary": ""
+}
+,
+
+{
+"title": "Export an In-Progress WAFR Report",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesWAFRexport-a-wafr-report.html",
+"summary": ""
+}
+,
+
+{
+"title": "Foundational Technical Review",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesFTRfoundational-technical-review.html",
+"summary": ""
+}
+,
+
+{
+"title": "FTR Question Descriptions",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesFTRftr-question-descriptions.html",
+"summary": ""
+}
+,
+
+{
+"title": "FTR",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesFTRftr.html",
+"summary": ""
+}
+,
+
+{
+"title": "Getting Started with ShareSave",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesShareSavegetting-started-with-sharesave.html",
 "summary": ""
 }
 ,
@@ -65,6 +326,78 @@
 ,
 
 {
+"title": "Integrations and Agents",
+"tags": "",
+"keywords": "",
+"url": "pagesIntegrations%20and%20Agentsintegrations-and-agents.html",
+"summary": ""
+}
+,
+
+{
+"title": "Integrations",
+"tags": "",
+"keywords": "",
+"url": "pagesIntegrations%20and%20AgentsIntegrationsintegrations.html",
+"summary": ""
+}
+,
+
+{
+"title": "JIRA Integration",
+"tags": "",
+"keywords": "",
+"url": "pagesIntegrations%20and%20AgentsIntegrationsjira-integration.html",
+"summary": ""
+}
+,
+
+{
+"title": "Kubernetes Agent",
+"tags": "",
+"keywords": "",
+"url": "pagesIntegrations%20and%20AgentsAgentsk8s-agent.html",
+"summary": ""
+}
+,
+
+{
+"title": "AWS Lamda Forwarder Agent",
+"tags": "",
+"keywords": "",
+"url": "pagesIntegrations%20and%20AgentsAgentslamba-forwarder-agent.html",
+"summary": ""
+}
+,
+
+{
+"title": "MAP",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesMAPmap.html",
+"summary": ""
+}
+,
+
+{
+"title": "The nOps Data Explorer",
+"tags": "cost_visibilityreporting",
+"keywords": "cost reporting, cost history, cost allocation",
+"url": "nops-data-explorer.html",
+"summary": ""
+}
+,
+
+{
+"title": "Notifications Center",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesSettingsnotification-center.html",
+"summary": ""
+}
+,
+
+{
 "title": "Onboarding AWS Linked Accounts",
 "tags": "getting_startedonboarding",
 "keywords": "setup, onboarding",
@@ -75,7 +408,7 @@
 
 {
 "title": "Onboarding Multiple AWS Linked Accounts with CloudFormation",
-"tags": "getting_startedonboardingcloudformation",
+"tags": "getting_startedonboarding",
 "keywords": "setup, onboarding",
 "url": "onboarding-aws-with-cloudformation.html",
 "summary": ""
@@ -93,7 +426,7 @@
 
 {
 "title": "Onboarding AWS Accounts to nOps with Terraform",
-"tags": "getting_startedonboardingterraform",
+"tags": "getting_startedonboarding",
 "keywords": "setup, onboarding, terraform",
 "url": "onboarding-aws-with-terraform.html",
 "summary": ""
@@ -105,6 +438,78 @@
 "tags": "getting_startedonboarding",
 "keywords": "setup, onboarding",
 "url": "onboarding-aws-with-automatic-setup.html",
+"summary": ""
+}
+,
+
+{
+"title": "PagerDuty Integration",
+"tags": "",
+"keywords": "",
+"url": "pagesIntegrations%20and%20AgentsIntegrationspagerduty-integration.html",
+"summary": ""
+}
+,
+
+{
+"title": "Recover Your Password",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesSettingsrecover-password.html",
+"summary": ""
+}
+,
+
+{
+"title": "Reports",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesReportsreports.html",
+"summary": ""
+}
+,
+
+{
+"title": "Rules",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesRulesrules.html",
+"summary": ""
+}
+,
+
+{
+"title": "Security",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesSecuritysecurity.html",
+"summary": ""
+}
+,
+
+{
+"title": "Settings",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesSettingssettings.html",
+"summary": ""
+}
+,
+
+{
+"title": "ShareSave",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesShareSavesharesave.html",
+"summary": ""
+}
+,
+
+{
+"title": "Slack Integration",
+"tags": "",
+"keywords": "",
+"url": "pagesIntegrations%20and%20AgentsIntegrationsslack-integration.html",
 "summary": ""
 }
 ,
@@ -155,6 +560,15 @@
 ,
 
 {
+"title": "SSO Integration",
+"tags": "",
+"keywords": "",
+"url": "pagesIntegrations%20and%20AgentsIntegrationssso-integration.html",
+"summary": ""
+}
+,
+
+{
 "title": "Okta SSO Integration",
 "tags": "getting_startedonboardingsso",
 "keywords": "sso, setup, onboarding",
@@ -168,6 +582,123 @@
 "tags": "getting_startedonboardingsso",
 "keywords": "sso, setup, onboarding",
 "url": "sso-onelogin.html",
+"summary": ""
+}
+,
+
+{
+"title": "User Guides",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesuser-guides.html",
+"summary": ""
+}
+,
+
+{
+"title": "View and Manage Workloads",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesWorkloadview-and-manage-workloads.html",
+"summary": ""
+}
+,
+
+{
+"title": "View IAM Violations",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesRulesview-iam-violations.html",
+"summary": ""
+}
+,
+
+{
+"title": "View Security Violations",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesSecurityview-security-violations.html",
+"summary": ""
+}
+,
+
+{
+"title": "View Under-Utilized EBS Volumes",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesRulesview-under-utilized-ebs-volumes.html",
+"summary": ""
+}
+,
+
+{
+"title": "View Under-Utilized Network Resources",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesRulesview-under-utilized-network-resources.html",
+"summary": ""
+}
+,
+
+{
+"title": "WAFR",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesWAFRwafr.html",
+"summary": ""
+}
+,
+
+{
+"title": "Webhook Integration",
+"tags": "",
+"keywords": "",
+"url": "pagesIntegrations%20and%20AgentsIntegrationswebhook-integration.html",
+"summary": ""
+}
+,
+
+{
+"title": "Configure Weekly Reports",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesReportsweekly-reports.html",
+"summary": ""
+}
+,
+
+{
+"title": "Well-Architected Framework Report",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesWAFRwell-architected-framework-report.html",
+"summary": ""
+}
+,
+
+{
+"title": "Well-Architected Framework Review",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesWAFRwell-architected-framework-review.html",
+"summary": ""
+}
+,
+
+{
+"title": "Workload API",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesWorkloadworkload-api.html",
+"summary": ""
+}
+,
+
+{
+"title": "Workload",
+"tags": "",
+"keywords": "",
+"url": "pagesUserGuidesWorkloadworkload.html",
 "summary": ""
 }
 

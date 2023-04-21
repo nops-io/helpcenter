@@ -8,6 +8,132 @@
   
   
   <url>
+    <loc>http://localhost:4000/pages/UserGuides/Workload/add-new-resources-to-workloads.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/Settings/adding-users-to-nops.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/Integrations%20and%20Agents/Agents/agents.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/Workload/attach-documents-to-workloads.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/MAP/automated-tagging-for-aws-migration-assistance-program.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/FTR/aws-foundation-technical-review-ftr-report.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/MAP/backfilling-a-cur-file.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/Settings/change-password.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/Security/check-if-the-root-account-has-mfa-activated.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/Integrations%20and%20Agents/Agents/cloudwatch-agent.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cost-commitment-management-working-with-reserved-instances.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cost-reporting-for-cloud-resources.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cost-resource-rightsizing.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cost-spot-advisor.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cost-tag-explorer.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/Workload/create-workloads.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/Rules/custom-rules.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/Settings/customize-settings.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/dashboards-nops-dashboard.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/dashboards-nops-dsl.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/Settings/data-purge.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/developer-api-list.html</loc>
   </url>
   
@@ -21,6 +147,54 @@
   
   <url>
     <loc>http://localhost:4000/developer-nswitch-slackbot.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/Settings/disable-notifications-for-a-user.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/Workload/evaluate-risk-for-a-workload.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/Integrations%20and%20Agents/Integrations/eventbridge-integration.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/WAFR/export-a-wafr-report.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/FTR/foundational-technical-review.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/FTR/ftr-question-descriptions.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/FTR/ftr.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/ShareSave/getting-started-with-sharesave.html</loc>
   </url>
   
   
@@ -45,6 +219,54 @@
   
   <url>
     <loc>http://localhost:4000/index.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/Integrations%20and%20Agents/integrations-and-agents.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/Integrations%20and%20Agents/Integrations/integrations.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/Integrations%20and%20Agents/Integrations/jira-integration.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/Integrations%20and%20Agents/Agents/k8s-agent.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/Integrations%20and%20Agents/Agents/lamba-forwarder-agent.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/MAP/map.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/nops-data-explorer.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/Settings/notification-center.html</loc>
   </url>
   
   
@@ -80,6 +302,54 @@
   
   
   <url>
+    <loc>http://localhost:4000/pages/Integrations%20and%20Agents/Integrations/pagerduty-integration.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/Settings/recover-password.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/Reports/reports.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/Rules/rules.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/Security/security.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/Settings/settings.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/ShareSave/sharesave.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/Integrations%20and%20Agents/Integrations/slack-integration.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/solutions-cost-optimization-rec.html</loc>
   </url>
   
@@ -105,6 +375,12 @@
   
   <url>
     <loc>http://localhost:4000/sso-integration.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/Integrations%20and%20Agents/Integrations/sso-integration.html</loc>
   </url>
   
   
@@ -144,6 +420,88 @@
   
   
   
+  
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/user-guides.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/Workload/view-and-manage-workloads.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/Rules/view-iam-violations.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/Security/view-security-violations.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/Rules/view-under-utilized-ebs-volumes.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/Rules/view-under-utilized-network-resources.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/WAFR/wafr.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/Integrations%20and%20Agents/Integrations/webhook-integration.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/Reports/weekly-reports.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/WAFR/well-architected-framework-report.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/WAFR/well-architected-framework-review.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/Workload/workload-api.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/UserGuides/Workload/workload.html</loc>
+  </url>
   
   
 </urlset>

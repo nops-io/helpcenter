@@ -19,13 +19,21 @@ entries:
       type: frontmatter
 
 #start of nav
-  - title: Getting Started
+  - title: Home
     output: web
     folderitems:
 
     - title: Connecting to nOps
       url: /index.html
       output: web
+
+  - title: Getting Started
+    output: web
+    folderitems:
+
+    - title:
+      url:
+      output: skip
 
       subfolders:
       - title: Onboarding
@@ -82,6 +90,56 @@ entries:
 
         - title: SSO integration with OneLogin
           url: /sso-onelogin.html
+          output: web
+
+
+  - title: User Guides
+    output: web
+    folderitems:
+
+    - title: 
+      url:
+      output: skip
+
+      subfolders:
+      - title: Cost
+        output: web
+        subfolderitems:
+
+        - title: Cost Reporting for Cloud Resources
+          url: /cost-reporting-for-cloud-resources.html
+          output: web
+
+        - title: Commitment Management - Working with Reserved Instances
+          url: /cost-commitment-management-working-with-reserved-instances.html
+          output: web          
+
+        - title: Spot Advisor
+          url: /cost-spot-advisor.html
+          output: web
+
+        - title: Tag Explorer
+          url: /cost-tag-explorer.html
+          output: web  
+
+      - title: Dashboards
+        output: web
+        subfolderitems:
+
+        - title: The nOps Dashboard
+          url: /dashboards-nops-dashboard.html
+          output: web
+
+        - title: nOps DSL
+          url: /dashboards-nops-dsl.html
+          output: web
+
+      - title: Data Explorer
+        output: web
+        subfolderitems:
+
+        - title: The nOps Data Explorer
+          url: /nops-data-explorer.html
           output: web
 
 

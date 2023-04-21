@@ -10,6 +10,8 @@ allowed-tags:
   - developer
   - savings
   - recommendations
+  - cost_visibility
+  - reporting
 
 
 # Copyright 2021 Google LLC

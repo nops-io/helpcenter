@@ -7,8 +7,8 @@ permalink: sso-onelogin.html
 folder: Getting Started
 ---
 
-How to use OneLogin SSO for nOps
-============================
+# How to use OneLogin SSO for nOps #
+
 
 nOps supports SSO using OneLogin.
 
@@ -21,8 +21,8 @@ You will complete the following steps:
 
     
 
-Configuring OneLogin on nOps.
-=============================
+## Configuring OneLogin on nOps. ##
+
 
 1.  Log into nOps as a Admin user and select **Settings**
     
@@ -37,8 +37,8 @@ Configuring OneLogin on nOps.
 4.  Now navigate to theOneLogin app. You will return to this page to add: Issuer URL (entityId), SAML 2.0 Endpoint (HTTP) , and X.509 Certificatebfrom OneLogin.
     
 
-Sign in to OneLogin and set up nOps
-===================================
+## Sign in to OneLogin and set up nOps ##
+
 
 1.  In a new browser tab, login to **OneLogin** and navigate to the **Applications** page.
     
@@ -61,9 +61,8 @@ Sign in to OneLogin and set up nOps
 7.  Copy the following configurations from the **Enable SAML 2.0** page in the **OneLogin** app to paste into nOps OneLogin SSO page as described in the next section.
     
 
-|     |     |
-| --- | --- |
 | **Copy from OneLogin field** | **Paste into nOps field** |
+| --- | --- |
 | Issuer URL (entityId) | Issuer URL (entityId) |
 | SAML 2.0 Endpoint (HTTP) | SAML 2.0 Endpoint (HTTP) |
 | X.509 Certificate | X.509 Certificate |
@@ -72,8 +71,7 @@ If required, use the one line format tool to generate a certificate.
 
 [https://samltool.com/format_x509cert.php](https://samltool.com/format_x509cert.php)
 
-Setup OneLogin configurations on nOps
-=====================================
+## Setup OneLogin configurations on nOps ##
 
 1.  If you are logged out of nOps, log in and go to the **SSO** settings screen as described in [the topic](#h_35f33efe86) above.
     
@@ -86,8 +84,7 @@ Setup OneLogin configurations on nOps
     You will return to OneLogin to enter these 2 values.
     
 
-Adding Information from nOps to OneLogin
-========================================
+## Adding Information from nOps to OneLogin ##
 
 Now that OneLogin is set up on nOps, you need to add the nOps settings to your OneLogin configuration.
 
@@ -104,8 +101,7 @@ Now that OneLogin is set up on nOps, you need to add the nOps settings to your O
 4.  Click **Save** to save the settings and go to the **Info** tab.
     
 
-Adding Parameters on OneLogin.
-==================================
+## Adding Parameters on OneLogin ##
 
 Add parameters to OneLogin so that you can sync the user names and other attributes between the two applications.
 
@@ -137,7 +133,7 @@ Add parameters to OneLogin so that you can sync the user names and other attribu
     Click **Save.**
     
 
-# Adding Users on OneLogin #
+### Adding Users on OneLogin ###
 
 Users added in OneLogin can be added to nOps for SSO. However you must first set up access for nOps
 

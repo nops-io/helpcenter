@@ -4,7 +4,6 @@ keywords: homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
 permalink: index.html
-folder: GettingStarted
 ---
 Welcome to the resource center for nOps.  If there is an article you'd like to see added, please let us know.  Help is only a click away in the platform with our chatbot if you still need help.
 
@@ -20,4 +19,4 @@ Getting connected with the nOps platform only takes a few minutes:
     1. Specify an S3 bucket for the Cost and Usage Report to be written
     1. Click to launch the CloudFormation Stack
 
-{% include links.html %}
+
