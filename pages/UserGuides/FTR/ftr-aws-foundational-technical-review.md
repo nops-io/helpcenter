@@ -1,9 +1,10 @@
 ---
 title: Foundational Technical Review
-parent: FTR
-grand_parent: User Guides
-nav_order: 2
-layout: default
+keywords: reporting, assessment, compliance
+tags: [compliance, reporting]
+sidebar: mydoc_sidebar
+permalink: ftr-aws-foundational-technical-review.html
+folder: UserGuides
 ---
 
 {: .no_toc }

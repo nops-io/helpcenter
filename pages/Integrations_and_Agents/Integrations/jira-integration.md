@@ -1,9 +1,10 @@
 ---
 title: JIRA Integration
-parent: Integrations
-grand_parent: Integrations and Agents
-nav_order: 3
-layout: default
+keywords: reporting, integrations
+tags: [agents_integrations]
+sidebar: mydoc_sidebar
+permalink: jira-integration.html
+folder: Integrations_and_Agents
 ---
 
 Integrating Jira into your cloud optimization workflow has never been easier!

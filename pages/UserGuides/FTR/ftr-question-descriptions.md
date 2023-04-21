@@ -1,9 +1,10 @@
 ---
 title: FTR Question Descriptions
-parent: FTR
-grand_parent: User Guides
-nav_order: 2
-layout: default
+keywords: reporting, assessment, compliance
+tags: [compliance, reporting]
+sidebar: mydoc_sidebar
+permalink: ftr-question-descriptions.html
+folder: UserGuides
 ---
 
 {: .no_toc }

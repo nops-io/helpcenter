@@ -20,12 +20,6 @@
   
   
   <url>
-    <loc>http://localhost:4000/pages/Integrations%20and%20Agents/Agents/agents.html</loc>
-  </url>
-  
-  
-  
-  <url>
     <loc>http://localhost:4000/pages/UserGuides/Workload/attach-documents-to-workloads.html</loc>
   </url>
   
@@ -33,12 +27,6 @@
   
   <url>
     <loc>http://localhost:4000/pages/UserGuides/MAP/automated-tagging-for-aws-migration-assistance-program.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/pages/UserGuides/FTR/aws-foundation-technical-review-ftr-report.html</loc>
   </url>
   
   
@@ -62,7 +50,7 @@
   
   
   <url>
-    <loc>http://localhost:4000/pages/Integrations%20and%20Agents/Agents/cloudwatch-agent.html</loc>
+    <loc>http://localhost:4000/cloudwatch-agent.html</loc>
   </url>
   
   
@@ -164,7 +152,7 @@
   
   
   <url>
-    <loc>http://localhost:4000/pages/Integrations%20and%20Agents/Integrations/eventbridge-integration.html</loc>
+    <loc>http://localhost:4000/eventbridge-integration.html</loc>
   </url>
   
   
@@ -176,19 +164,19 @@
   
   
   <url>
-    <loc>http://localhost:4000/pages/UserGuides/FTR/foundational-technical-review.html</loc>
+    <loc>http://localhost:4000/ftr-aws-foundational-technical-review.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/pages/UserGuides/FTR/ftr-question-descriptions.html</loc>
+    <loc>http://localhost:4000/ftr-aws-ftr-report.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/pages/UserGuides/FTR/ftr.html</loc>
+    <loc>http://localhost:4000/ftr-question-descriptions.html</loc>
   </url>
   
   
@@ -224,37 +212,19 @@
   
   
   <url>
-    <loc>http://localhost:4000/pages/Integrations%20and%20Agents/integrations-and-agents.html</loc>
+    <loc>http://localhost:4000/jira-integration.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/pages/Integrations%20and%20Agents/Integrations/integrations.html</loc>
+    <loc>http://localhost:4000/k8s-agent.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/pages/Integrations%20and%20Agents/Integrations/jira-integration.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/pages/Integrations%20and%20Agents/Agents/k8s-agent.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/pages/Integrations%20and%20Agents/Agents/lamba-forwarder-agent.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/pages/UserGuides/MAP/map.html</loc>
+    <loc>http://localhost:4000/lambda-forwarder-agent.html</loc>
   </url>
   
   
@@ -302,7 +272,7 @@
   
   
   <url>
-    <loc>http://localhost:4000/pages/Integrations%20and%20Agents/Integrations/pagerduty-integration.html</loc>
+    <loc>http://localhost:4000/pagerduty-integration.html</loc>
   </url>
   
   
@@ -344,7 +314,7 @@
   
   
   <url>
-    <loc>http://localhost:4000/pages/Integrations%20and%20Agents/Integrations/slack-integration.html</loc>
+    <loc>http://localhost:4000/slack-integration.html</loc>
   </url>
   
   
@@ -380,12 +350,6 @@
   
   
   <url>
-    <loc>http://localhost:4000/pages/Integrations%20and%20Agents/Integrations/sso-integration.html</loc>
-  </url>
-  
-  
-  
-  <url>
     <loc>http://localhost:4000/sso-okta.html</loc>
   </url>
   
@@ -394,6 +358,10 @@
   <url>
     <loc>http://localhost:4000/sso-onelogin.html</loc>
   </url>
+  
+  
+  
+  
   
   
   
@@ -470,7 +438,7 @@
   
   
   <url>
-    <loc>http://localhost:4000/pages/Integrations%20and%20Agents/Integrations/webhook-integration.html</loc>
+    <loc>http://localhost:4000/webhook-integration.html</loc>
   </url>
   
   

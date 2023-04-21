@@ -1,9 +1,10 @@
 ---
 title: Webhook Integration
-parent: Integrations
-grand_parent: Integrations and Agents
-nav_order: 6
-layout: default
+keywords: reporting, integrations
+tags: [agents_integrations]
+sidebar: mydoc_sidebar
+permalink: webhook-integration.html
+folder: Integrations_and_Agents
 ---
 
 {: .no_toc }

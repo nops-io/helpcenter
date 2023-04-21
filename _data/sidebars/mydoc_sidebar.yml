@@ -31,7 +31,7 @@ entries:
     output: web
     folderitems:
 
-    - title:
+    - title: skip
       url:
       output: skip
 
@@ -93,11 +93,60 @@ entries:
           output: web
 
 
+  - title: Agents and Integrations
+    output: web
+    folderitems:
+
+    - title: skip
+      url:
+      output: skip
+
+      subfolders:
+      - title: Agents
+        output: web
+        subfolderitems:
+
+        - title: Cloudwatch Agent
+          url: /cloudwatch-agent.html
+          output: web
+
+        - title: Kubernetes Agent
+          url: /k8s-agent.html
+          output: web
+
+        - title: Lambda Forwarder Agent
+          url: /lambda-forwarder-agent.html
+          output: web
+
+      - title: Integrations
+        output: web
+        subfolderitems:
+
+        - title: Eventbridge Integration
+          url: /eventbridge-integration.html
+          output: web
+
+        - title: Jira Integration
+          url: /jira-integration.html
+          output: web
+
+        - title: PagerDuty Integration
+          url: /pagerduty-integration.html
+          output: web
+
+        - title: Slack Integration
+          url: /slack-integration.html
+          output: web
+
+        - title: Webhook Integration
+          url: /webhook-integration.html
+          output: web
+
   - title: User Guides
     output: web
     folderitems:
 
-    - title: 
+    - title: skip
       url:
       output: skip
 
@@ -142,6 +191,21 @@ entries:
           url: /nops-data-explorer.html
           output: web
 
+      - title: FTR
+        output: web
+        subfolderitems:
+
+        - title: The AWS Foundational Technical Review
+          url: /ftr-aws-foundational-technical-review.html
+          output: web
+
+        - title: The FTR Report
+          url: /ftr-aws-ftr-report.html
+          output: web          
+
+        - title: FTR Question Descriptions
+          url: /ftr-question-descriptions.html
+          output: web  
 
   - title: Solutions
     output: web

@@ -20,15 +20,6 @@
 ,
 
 {
-"title": "Agents",
-"tags": "",
-"keywords": "",
-"url": "pagesIntegrations%20and%20AgentsAgentsagents.html",
-"summary": ""
-}
-,
-
-{
 "title": "Attach Documents to Workloads",
 "tags": "",
 "keywords": "",
@@ -42,15 +33,6 @@
 "tags": "",
 "keywords": "",
 "url": "pagesUserGuidesMAPautomated-tagging-for-aws-migration-assistance-program.html",
-"summary": ""
-}
-,
-
-{
-"title": "Foundational Technical Review Report",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesFTRaws-foundation-technical-review-ftr-report.html",
 "summary": ""
 }
 ,
@@ -84,9 +66,9 @@
 
 {
 "title": "Cloudwatch Agent",
-"tags": "",
-"keywords": "",
-"url": "pagesIntegrations%20and%20AgentsAgentscloudwatch-agent.html",
+"tags": "agents_integrations",
+"keywords": "reporting, integrations",
+"url": "cloudwatch-agent.html",
 "summary": ""
 }
 ,
@@ -237,9 +219,9 @@
 
 {
 "title": "EventBridge Integration",
-"tags": "",
-"keywords": "",
-"url": "pagesIntegrations%20and%20AgentsIntegrationseventbridge-integration.html",
+"tags": "agents_integrations",
+"keywords": "reporting, integrations",
+"url": "eventbridge-integration.html",
 "summary": ""
 }
 ,
@@ -255,27 +237,27 @@
 
 {
 "title": "Foundational Technical Review",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesFTRfoundational-technical-review.html",
+"tags": "compliancereporting",
+"keywords": "reporting, assessment, compliance",
+"url": "ftr-aws-foundational-technical-review.html",
+"summary": ""
+}
+,
+
+{
+"title": "Foundational Technical Review Report",
+"tags": "assessmentreporting",
+"keywords": "cost reporting, cost history, cost allocation",
+"url": "ftr-aws-ftr-report.html",
 "summary": ""
 }
 ,
 
 {
 "title": "FTR Question Descriptions",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesFTRftr-question-descriptions.html",
-"summary": ""
-}
-,
-
-{
-"title": "FTR",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesFTRftr.html",
+"tags": "compliancereporting",
+"keywords": "reporting, assessment, compliance",
+"url": "ftr-question-descriptions.html",
 "summary": ""
 }
 ,
@@ -326,55 +308,28 @@
 ,
 
 {
-"title": "Integrations and Agents",
-"tags": "",
-"keywords": "",
-"url": "pagesIntegrations%20and%20Agentsintegrations-and-agents.html",
-"summary": ""
-}
-,
-
-{
-"title": "Integrations",
-"tags": "",
-"keywords": "",
-"url": "pagesIntegrations%20and%20AgentsIntegrationsintegrations.html",
-"summary": ""
-}
-,
-
-{
 "title": "JIRA Integration",
-"tags": "",
-"keywords": "",
-"url": "pagesIntegrations%20and%20AgentsIntegrationsjira-integration.html",
+"tags": "agents_integrations",
+"keywords": "reporting, integrations",
+"url": "jira-integration.html",
 "summary": ""
 }
 ,
 
 {
 "title": "Kubernetes Agent",
-"tags": "",
-"keywords": "",
-"url": "pagesIntegrations%20and%20AgentsAgentsk8s-agent.html",
+"tags": "agents_integrations",
+"keywords": "reporting, integrations",
+"url": "k8s-agent.html",
 "summary": ""
 }
 ,
 
 {
 "title": "AWS Lamda Forwarder Agent",
-"tags": "",
-"keywords": "",
-"url": "pagesIntegrations%20and%20AgentsAgentslamba-forwarder-agent.html",
-"summary": ""
-}
-,
-
-{
-"title": "MAP",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesMAPmap.html",
+"tags": "agents_integrations",
+"keywords": "reporting, integrations",
+"url": "lambda-forwarder-agent.html",
 "summary": ""
 }
 ,
@@ -444,9 +399,9 @@
 
 {
 "title": "PagerDuty Integration",
-"tags": "",
-"keywords": "",
-"url": "pagesIntegrations%20and%20AgentsIntegrationspagerduty-integration.html",
+"tags": "agents_integrations",
+"keywords": "reporting, integrations",
+"url": "pagerduty-integration.html",
 "summary": ""
 }
 ,
@@ -507,9 +462,9 @@
 
 {
 "title": "Slack Integration",
-"tags": "",
-"keywords": "",
-"url": "pagesIntegrations%20and%20AgentsIntegrationsslack-integration.html",
+"tags": "agents_integrations",
+"keywords": "reporting, integrations",
+"url": "slack-integration.html",
 "summary": ""
 }
 ,
@@ -555,15 +510,6 @@
 "tags": "getting_startedonboardsso",
 "keywords": "sso, setup, onboarding",
 "url": "sso-integration.html",
-"summary": ""
-}
-,
-
-{
-"title": "SSO Integration",
-"tags": "",
-"keywords": "",
-"url": "pagesIntegrations%20and%20AgentsIntegrationssso-integration.html",
 "summary": ""
 }
 ,
@@ -651,9 +597,9 @@
 
 {
 "title": "Webhook Integration",
-"tags": "",
-"keywords": "",
-"url": "pagesIntegrations%20and%20AgentsIntegrationswebhook-integration.html",
+"tags": "agents_integrations",
+"keywords": "reporting, integrations",
+"url": "webhook-integration.html",
 "summary": ""
 }
 ,

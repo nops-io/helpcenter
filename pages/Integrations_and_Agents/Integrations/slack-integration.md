@@ -1,9 +1,10 @@
 ---
 title: Slack Integration
-parent: Integrations
-grand_parent: Integrations and Agents
-nav_order: 5
-layout: default
+keywords: reporting, integrations
+tags: [agents_integrations]
+sidebar: mydoc_sidebar
+permalink: slack-integration.html
+folder: Integrations_and_Agents
 ---
 
 {: .no_toc }

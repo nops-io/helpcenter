@@ -1,9 +1,10 @@
 ---
 title: Kubernetes Agent
-parent: Agents
-grand_parent: Integrations and Agents
-nav_order: 2
-layout: default
+keywords: reporting, integrations
+tags: [agents_integrations]
+sidebar: mydoc_sidebar
+permalink: k8s-agent.html
+folder: Integrations_and_Agents
 ---
 
 The nOps Kubernetes (K8s) agent will run in the K8S environment to collect metrics and send them to nOps.

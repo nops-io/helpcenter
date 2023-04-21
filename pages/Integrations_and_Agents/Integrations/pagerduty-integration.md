@@ -1,9 +1,10 @@
 ---
 title: PagerDuty Integration
-parent: Integrations
-grand_parent: Integrations and Agents
-nav_order: 4
-layout: default
+keywords: reporting, integrations
+tags: [agents_integrations]
+sidebar: mydoc_sidebar
+permalink: pagerduty-integration.html
+folder: Integrations_and_Agents
 ---
 
 Integrating PagerDuty into your cloud optimization workflow for better alerting.

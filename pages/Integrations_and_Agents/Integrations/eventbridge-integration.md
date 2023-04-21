@@ -1,9 +1,10 @@
 ---
 title: EventBridge Integration
-parent: Integrations
-grand_parent: Integrations and Agents
-nav_order: 2
-layout: default
+keywords: reporting, integrations
+tags: [agents_integrations]
+sidebar: mydoc_sidebar
+permalink: eventbridge-integration.html
+folder: Integrations_and_Agents
 ---
 
 EventBridge Integration makes it easier for nOps to automate workflows in the client’s environment.

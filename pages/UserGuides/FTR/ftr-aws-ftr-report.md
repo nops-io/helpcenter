@@ -1,9 +1,10 @@
 ---
 title: Foundational Technical Review Report
-parent: FTR
-grand_parent: User Guides
-nav_order: 3
-layout: default
+keywords: cost reporting, cost history, cost allocation
+tags: [assessment, reporting]
+sidebar: mydoc_sidebar
+permalink: ftr-aws-ftr-report.html
+folder: UserGuides
 ---
 
 {: .no_toc }

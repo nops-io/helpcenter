@@ -1,9 +1,10 @@
 ---
 title: Cloudwatch Agent
-parent: Agents
-grand_parent: Integrations and Agents
-nav_order: 3
-layout: default
+keywords: reporting, integrations
+tags: [agents_integrations]
+sidebar: mydoc_sidebar
+permalink: cloudwatch-agent.html
+folder: Integrations_and_Agents
 ---
 
 The Cloudwatch agent will run in your EC2 instances to collect metrics and send them to nOps.

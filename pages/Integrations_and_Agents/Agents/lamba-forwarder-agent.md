@@ -1,9 +1,10 @@
 ---
 title: AWS Lamda Forwarder Agent
-parent: Agents
-grand_parent: Integrations and Agents
-nav_order: 4
-layout: default
+keywords: reporting, integrations
+tags: [agents_integrations]
+sidebar: mydoc_sidebar
+permalink: lambda-forwarder-agent.html
+folder: Integrations_and_Agents
 ---
 
 In this document you will learn how to install the nOps AWS Lambda Forwarder Agent to forward events from your AWS CloudTrail into nOps via CloudFormation stack or Manual Setup.
