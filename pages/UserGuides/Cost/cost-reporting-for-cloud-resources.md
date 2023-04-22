@@ -90,7 +90,7 @@ The Filters box includes a **calendar tool**, which allows you to **specify a da
 
 The default cost display might only cover the preceding month. The calendar tool can be used to view cost changes over time periods that are meaningful to your business.
 
-[![](https://downloads.intercomcdn.com/i/o/504804870/23975bf88ce57af08108ce98/image.png)](https://downloads.intercomcdn.com/i/o/504804870/23975bf88ce57af08108ce98/image.png)
+![](/tmpimg/calendar-select.png)
 
 Spend figures next to regions, cloud-managed services, and other criteria listed in the Filters box are the total for that filter criterion and will match the total in the Daily Spend table on the page.
 
@@ -109,8 +109,6 @@ The color-coded choices beneath the chart can be clicked to exclude each from th
 *   The Daily Spend detail on each page has a **Download CSV** button at the upper right that downloads _all_ spend records for that page. For example, if a tab such as Operations has 170 records, the default view may display only 10 records at a time. However, clicking the download icon will download **all** records (in this example, 170) in a .csv file:
     
 
-[![](https://downloads.intercomcdn.com/i/o/504879656/364bfd9483387a634f310230/image.png)](https://downloads.intercomcdn.com/i/o/504879656/364bfd9483387a634f310230/image.png)
-
 **Non-resources**
 -----------------
 
@@ -121,9 +119,9 @@ Cost Details for Resources and Non-resources
 
 You can get details for any Daily Spend value or Total value in the Resources or Non-resources pages by clicking on the value:
 
-[![](https://downloads.intercomcdn.com/i/o/548467377/24fc8054e3fbbbd8e43fcf33/See+Details+on+Resources+and+Non-resources.png)](https://downloads.intercomcdn.com/i/o/548467377/24fc8054e3fbbbd8e43fcf33/See+Details+on+Resources+and+Non-resources.png)
+![](/tmpimg/See+Details+on+Resources+and+Non-resources.png)
 
-[![](https://downloads.intercomcdn.com/i/o/547329412/5a3ed364a04e0a8b0e14da52/Displayed+Details+on+Resources+and+Non-resources.png)](https://downloads.intercomcdn.com/i/o/547329412/5a3ed364a04e0a8b0e14da52/Displayed+Details+on+Resources+and+Non-resources.png)
+![](/tmpimg/Displayed+Details+on+Resources+and+Non-resources.png)
 
 Tags
 ----
@@ -144,7 +142,7 @@ Change Management
 
 The **Change Management** tab lists the changes in your account and the potential billing impact of these changes. You can expand or collapse each day's list of changes by clicking the down arrow at the right, and you can click on the **Daily**, **Weekly**, or **Monthly** filter options to see the total spend change over daily, weekly, or monthly intervals for each resource type. Change the **Sort by** options to view increases or decreases by cost or by percent.  
 
-[![](https://downloads.intercomcdn.com/i/o/504793562/1b0294b4a1a7e42baab2d511/image.png)](https://downloads.intercomcdn.com/i/o/504793562/1b0294b4a1a7e42baab2d511/image.png)
+![](/tmpimg/change-mng-filter-sort.png)
 
 Finding Cost Changes
 ====================

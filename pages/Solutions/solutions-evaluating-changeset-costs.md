@@ -24,10 +24,10 @@ You can use any of the above methods to investigate cost impacts for infrastruct
 
 To learn more about the nOps SDK, see [nOps SDK Documentation](https://nopsteam.gitlab.io/nops-sdk/index.html).
 
-Value of Automated Cost-Impact Evaluation
+# Value of Automated Cost-Impact Evaluation #
 =========================================
 
-Lower Daily Costs
+## Lower Daily Costs ##
 -----------------
 
 Many small companies (and yes, even large enterprises) struggle to control costs while embracing cloud compute capacity. Costs are often focused on “keeping the engine running” and few resources are focused on managing capacity efficiently to lower daily costs of running a cloud infrastructure.

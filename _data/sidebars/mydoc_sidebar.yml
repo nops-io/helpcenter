@@ -163,12 +163,16 @@ entries:
         output: web
         subfolderitems:
 
+        - title: Commitment Management - Working with Reserved Instances
+          url: /cost-commitment-management-working-with-reserved-instances.html
+          output: web   
+
         - title: Cost Reporting for Cloud Resources
           url: /cost-reporting-for-cloud-resources.html
           output: web
 
-        - title: Commitment Management - Working with Reserved Instances
-          url: /cost-commitment-management-working-with-reserved-instances.html
+        - title: Resource Rightsizing
+          url: /cost-resource-rightsizing.html
           output: web          
 
         - title: Spot Advisor

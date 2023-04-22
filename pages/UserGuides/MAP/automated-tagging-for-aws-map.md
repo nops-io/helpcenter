@@ -27,7 +27,7 @@ In order to get your AWS MAP credits, all your resources must be tagged accordin
 
 To use the nOps MAP facitliy, from the nOps dashboard go to **Workload > AWS MAP:**
 
-[![](https://downloads.intercomcdn.com/i/o/569897785/a11b1550480de171e7cbccf6/2022-08-26_21-39-57.png)](https://downloads.intercomcdn.com/i/o/569897785/a11b1550480de171e7cbccf6/2022-08-26_21-39-57.png)
+![](/tmpimg/map1.png)
 
 Defining Your Migration Projects
 --------------------------------
@@ -41,11 +41,11 @@ The nOps MAP facility starts with the page **_AWS MAP 2.0 Summary_**, where you�
 * **List of Migration Projects** – shows projects that you’ve defined. Each project corresponds with a _MAP Migration Contract_ from AWS and is identified by the project number in that contract, of the form _MPExxxxx_ (where _xxxxx_ are digits).
     
 
-[![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/557311785/8e2b893458b376924f8f78b7/chDGJ-Q931vYOaZNTN2piisd_TiRnmHfCJznXReoY79yrJwn5U9pCBNkMiR1witAOZkrCzrkdVsbcThfvEEppe0Yf4a0ow29eitIKGxyyLfHjfTrdJnMeV0aeI6s2AgwI-wnMoWmeaESovsPEDqNrYg)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/557311785/8e2b893458b376924f8f78b7/chDGJ-Q931vYOaZNTN2piisd_TiRnmHfCJznXReoY79yrJwn5U9pCBNkMiR1witAOZkrCzrkdVsbcThfvEEppe0Yf4a0ow29eitIKGxyyLfHjfTrdJnMeV0aeI6s2AgwI-wnMoWmeaESovsPEDqNrYg)
+![](/tmpimg/map2.png)
 
 To create/add a MAP migration project in nOps, click **\+ Create MAP Project** at the upper right; it will bring up this dialog:
 
-[![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/557311796/8041917409406949cc51d05f/fha5TuMYE7Z3TniRfaAAS2p0BIHTZsoGPg1JoZxNv-PPCoj6EsIDWTBvH77AKb97FSHsfpzx5gytHruD4sRzOO7BgMwB8h5opz2Xc0USLnt74zqiOw2Jni_YLLTt0W6ozDxMDSv7RB4N2WlzWfJUY70)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/557311796/8041917409406949cc51d05f/fha5TuMYE7Z3TniRfaAAS2p0BIHTZsoGPg1JoZxNv-PPCoj6EsIDWTBvH77AKb97FSHsfpzx5gytHruD4sRzOO7BgMwB8h5opz2Xc0USLnt74zqiOw2Jni_YLLTt0W6ozDxMDSv7RB4N2WlzWfJUY70)
+![](/tmpimg/map3.png)
 
 In the dialog, fill out the details:
 
@@ -64,7 +64,7 @@ In the dialog, fill out the details:
 
 Once you’ve entered all the details for this MAP project, click **Create.** The project you just created will show up in the **List of Migration Projects** on the **_AWS MAP 2.0 Summary_** page:
 
-[![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/557311803/8ecc57533661244a974df60f/pLdmHASUA-NwjsCreguPIeK-TCy0eiJtMV9SSc0ppdTHVEkd_5j2PFEUl_u-7jwho8KT1GG10GW7Ngoc9sWnetpBebtVp356VA2Q-7mRHxtVIm10FuBjNA1Bi10xqmREwSnkI9KqkGkow2T5xRJukAQ)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/557311803/8ecc57533661244a974df60f/pLdmHASUA-NwjsCreguPIeK-TCy0eiJtMV9SSc0ppdTHVEkd_5j2PFEUl_u-7jwho8KT1GG10GW7Ngoc9sWnetpBebtVp356VA2Q-7mRHxtVIm10FuBjNA1Bi10xqmREwSnkI9KqkGkow2T5xRJukAQ)
+![](/tmpimg/map4.png)
 
 Every MAP project that you create this way in nOps will correspond to a MAP _Migration Contract_.
 
@@ -88,16 +88,14 @@ To tag resources of a project:
     
 2.  Scroll down to the **List of resources** section. This list contains all the resources associated with the migration project:
     
-    [![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/557311812/ed5cac57642199d7cd2411ea/rqrNZT_HNkLspQutUWbN7GgsRbAbKF5tiRQXzMMHStgbcPrcHHBXKNIPfbIlktdPw1SceLaYy-co5o52vJgxcKoE_ts13xAw0SuCVtvk6-3R-zUjo2os5jYTSiux2kXPzSFbAa92CdcQdlt7_uNI2e4)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/557311812/ed5cac57642199d7cd2411ea/rqrNZT_HNkLspQutUWbN7GgsRbAbKF5tiRQXzMMHStgbcPrcHHBXKNIPfbIlktdPw1SceLaYy-co5o52vJgxcKoE_ts13xAw0SuCVtvk6-3R-zUjo2os5jYTSiux2kXPzSFbAa92CdcQdlt7_uNI2e4)
-    
+![](/tmpimg/map5.png)
+
 3.  Select the resource(s) you want to tag, and click **\+ Add Migration Tag** and then **\+ Tag Now**:
     
-    [![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/557311819/d8ef78d840173f3fc83500e9/IQZK_9xrnRd-TZsSNgqlcQupepLOTcYWth9vl4VLoCX3Z58N0WMzwIfq-hdYs1SqrMI1oS0KTnmXlscBGmyF-RIoJqSI2s42ML38PM7XOX3lGQw1tAXb4wx3c50fmXcAg27pHV2-ncO0YCLcoqtqw1Q)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/557311819/d8ef78d840173f3fc83500e9/IQZK_9xrnRd-TZsSNgqlcQupepLOTcYWth9vl4VLoCX3Z58N0WMzwIfq-hdYs1SqrMI1oS0KTnmXlscBGmyF-RIoJqSI2s42ML38PM7XOX3lGQw1tAXb4wx3c50fmXcAg27pHV2-ncO0YCLcoqtqw1Q)
+![](/tmpimg/map6.png)
     
 4.  Click **Yes**:
-    
-    [![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/557311826/b69d7238732ad42c5ef0c863/A5GNkEqH877xaAtCQAlkX-9DSubonqZ09bosRPevvgaFLHqS9YW52fGgg1X5cTvGXwSs1cK9h83NXwcwDaT4ZXP2sw1Vwavx-bAi9lQ1pZrR7QeDSsFQ5VwVLEeELMMdOwB8PA2BYDhibXMB4bVce7s)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/557311826/b69d7238732ad42c5ef0c863/A5GNkEqH877xaAtCQAlkX-9DSubonqZ09bosRPevvgaFLHqS9YW52fGgg1X5cTvGXwSs1cK9h83NXwcwDaT4ZXP2sw1Vwavx-bAi9lQ1pZrR7QeDSsFQ5VwVLEeELMMdOwB8PA2BYDhibXMB4bVce7s)
-    
+
 
 * * *
 
@@ -114,7 +112,7 @@ Managing Your Migration Projects
 
 Once you’ve defined one or more migration projects in nOps, you will see each of those projects listed at the bottom of the **_AWS_** _**MAP 2.0 Summary**_ page where you started:
 
-[![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/557311837/cd3a9bf8dc55269badbefe82/Sj_tjYY3ofokcbWBLHQiVxoiK-3BetCT1FZpuH2bKFBK_QqLh6Wsg99GYBrAbMiS_J8tQr1MV7NQgIXkOv5R1RQAO0vCPshfkQbtM94W0OpL8qYtQ--eAPxlN6A_RJrJgD808ZebmSDxmvjBHdJnsJQ)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/557311837/cd3a9bf8dc55269badbefe82/Sj_tjYY3ofokcbWBLHQiVxoiK-3BetCT1FZpuH2bKFBK_QqLh6Wsg99GYBrAbMiS_J8tQr1MV7NQgIXkOv5R1RQAO0vCPshfkQbtM94W0OpL8qYtQ--eAPxlN6A_RJrJgD808ZebmSDxmvjBHdJnsJQ)
+![](/tmpimg/map7.png)
 
 You can access and manage any migration project by clicking the ➡️ button in the _Action_ column of the **List of Migration Projects** section.
 
@@ -136,15 +134,15 @@ Navigate and Track Your Incentive Credits
 
 In the **_AWS MAP 2.0 Summary_** page, again note the arrow at the right of each migration project line, in the _Action_ column. Clicking that arrow brings up the details of that migration project:
 
-[![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/557311845/cf3a2f8abb4ebae61a52cc54/YojSUjSRrR1X7gKMjUvL3pLk_6RUaYgDOejOUtaSKeuukFkglWyyAL16wMroMFrVyYZGFj5djOpg2O858QzyJyCAoXpS_khb02PNWfqTIg2amnCmDh3QWOcLKCNVPnQEHSv9SSR6bg5KsuWHqE-z1H4)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/557311845/cf3a2f8abb4ebae61a52cc54/YojSUjSRrR1X7gKMjUvL3pLk_6RUaYgDOejOUtaSKeuukFkglWyyAL16wMroMFrVyYZGFj5djOpg2O858QzyJyCAoXpS_khb02PNWfqTIg2amnCmDh3QWOcLKCNVPnQEHSv9SSR6bg5KsuWHqE-z1H4)
+![](/tmpimg/map8.png)
 
 The details page shows the performance of a specific migration project, and it is divided into four distinct sections. At the top of the details page you will see the **Migration ID**, **Start Date**, **End Date**, **Tag Key**, **Server ID**, and **Workload** associated with the migration project you just clicked:
 
-[![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/557311850/b5b0f88ed50b26b9504c7135/GMa-MkNGsv-GrQvfvywUxpFgkNTF1eF5o609En0xr6VogYWeF_yLNp7TcyYUZ7HzvxjWBDFU4CAYZPu2Y-j1TmUiZ4IdKZR2bH8fjT1J1TpYOfhqM7MZ_VQHL0BktzWAPM6Luhnwb65ajKczeBCFpfo)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/557311850/b5b0f88ed50b26b9504c7135/GMa-MkNGsv-GrQvfvywUxpFgkNTF1eF5o609En0xr6VogYWeF_yLNp7TcyYUZ7HzvxjWBDFU4CAYZPu2Y-j1TmUiZ4IdKZR2bH8fjT1J1TpYOfhqM7MZ_VQHL0BktzWAPM6Luhnwb65ajKczeBCFpfo)
+![](/tmpimg/map9.png)
 
-[![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/557311856/317ab0aeda807dc865f4d74f/T-qLfrRxLZv7I1dPqTdzBtgFHZRxXMOw1tXo2OHFO2RIo3CnfVOHHJTfA3U0V0ion-1GLj-FHNuYNeI3xd8gfJaYjZGMrz_voS4tD5RiaidktO-Q68A875xuAV2svwSwYrYHgvb-KeS-jkcMW1qrfgI)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/557311856/317ab0aeda807dc865f4d74f/T-qLfrRxLZv7I1dPqTdzBtgFHZRxXMOw1tXo2OHFO2RIo3CnfVOHHJTfA3U0V0ion-1GLj-FHNuYNeI3xd8gfJaYjZGMrz_voS4tD5RiaidktO-Q68A875xuAV2svwSwYrYHgvb-KeS-jkcMW1qrfgI)
+![](/tmpimg/map10.png)
 
-[![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/557311861/1fa556b09ed2a12ae003703b/R6X7BSdLyCU2fetWVswgII08qELwKlJ-TgaOy1DeyI_8coaRYv-pbAtTAH2yDW8Gd89b_zDpSr_ODOcdamYyWOmE2J246RaMiko5kh2UQ_yRJZg5Pnf1YDmxeWHkHR4USwFU-S7VIfysAy0dkXzIYRc)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/557311861/1fa556b09ed2a12ae003703b/R6X7BSdLyCU2fetWVswgII08qELwKlJ-TgaOy1DeyI_8coaRYv-pbAtTAH2yDW8Gd89b_zDpSr_ODOcdamYyWOmE2J246RaMiko5kh2UQ_yRJZg5Pnf1YDmxeWHkHR4USwFU-S7VIfysAy0dkXzIYRc)
+![](/tmpimg/map11.png)
 
 The next three sections are all about navigating your incentive credits, tracking your tagging status, and tagging untagged resources:
 

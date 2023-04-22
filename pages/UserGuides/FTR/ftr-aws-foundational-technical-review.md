@@ -49,7 +49,7 @@ Signing Up for nOps
 
 Complete the signup process by entering your business email, company name, etc. and clicking “Sign Up.” Doing so will cause a verification email to be sent to you — please click it to verify your email address. If you do not receive the verification email, please check your Spam folder.
 
-[![](https://downloads.intercomcdn.com/i/o/286280604/e55780e3a4d271b80db6dbd4/image.png)](https://downloads.intercomcdn.com/i/o/286280604/e55780e3a4d271b80db6dbd4/image.png)
+![](/tmpimg/ftr-signup.png)
 
 _Congrats! You are now registered as an nOps user._
 
@@ -60,40 +60,18 @@ Connect your AWS account(s) where the resources in your workload live.
 
 _*You will need to have access to the master payer account if you are using organizations. Additionally, you will need permissions to create and run a CloudFormation stack and create IAM roles in your account._
 
-Click **_\+ Add AWS Account_** on the right.
-
-Or, click on your username in the top right and go to: **_Settings_ \> _AWS Accounts_ Click _“Add a new AWS account.”_**
-
-[![](https://downloads.intercomcdn.com/i/o/286280865/6a87c5bae619bde683b26180/image.png)](https://downloads.intercomcdn.com/i/o/286280865/6a87c5bae619bde683b26180/image.png)
-
 _nOps has two setup options:_
 
-* nOps Wizard Setup (recommended) - nOps will create a CloudFormation stack using your AWS credentials.
+* [nOps Wizard Setup (recommended)](onboarding-aws-with-automatic-setup.html) - nOps will create a CloudFormation stack using your AWS credentials.
     
-* Manual Setup - Used to reconfigure specific AWS accounts.
+* [Manual Setup](onboarding-aws-with-manual-setup.html) - Used to reconfigure specific AWS accounts.
     
 
-[![](https://downloads.intercomcdn.com/i/o/286280938/feb026bf2a381f9fea47be9b/image.png)](https://downloads.intercomcdn.com/i/o/286280938/feb026bf2a381f9fea47be9b/image.png)
-
-When adding a new AWS account, nOps will ask for the friendly name and the name of an S3 bucket where your CURs will be written. If you already have an S3 bucket for your CURs, you can add it here. Otherwise, nOps will attempt to create an S3 bucket.
-
-[![](https://downloads.intercomcdn.com/i/o/286281049/b9c23fc6a6f217a0767a99c1/image.png)](https://downloads.intercomcdn.com/i/o/286281049/b9c23fc6a6f217a0767a99c1/image.png)
-
-Click **_“Setup Account”_** to be redirected to your AWS account.
-
-_*Please remember to log in to the AWS account that you want nOps to collect data from._
-
-Agree to the CloudFormation template being able to create an IAM role and then click _Create Stack._
-
-**_Step 2_** Once you have successfully added your AWS account to nOps, it will start the data ingestion process.
-
-[![](https://downloads.intercomcdn.com/i/o/286281209/0b239a9062644d6cf7a92ddf/image.png)](https://downloads.intercomcdn.com/i/o/286281209/0b239a9062644d6cf7a92ddf/image.png)
-
-This process can take two to four hours, depending on the size of your AWS account. You should be able to see your AWS account in **_Settings_ \> _AWS Accounts_ \> _Active AWS Accounts_.**
+This process can take two to four hours, depending on the size of your AWS account. You should be able to see your AWS account in **_Organization Settings_ \> _AWS Accounts_ \> _Active AWS Accounts_.**
 
 **_AWS Accounts_** are now synced when this screen appears:
 
-[![](https://downloads.intercomcdn.com/i/o/286281351/c5f1850d978faea83b726a1d/image.png)](https://downloads.intercomcdn.com/i/o/286281351/c5f1850d978faea83b726a1d/image.png)
+![](/tmpimg/account-list.png)
 
 Workloads
 ---------
@@ -105,7 +83,7 @@ Creating Your First Workload
 
 **_Step 3_** If this is the first time you have created a workload, you will be able to click “Create New Workload” in the middle of the screen. After that, the Create New Workload button will move to the top right of the window.
 
-[![](https://downloads.intercomcdn.com/i/o/286281485/e632d0046228aa7fc546d9da/image.png)](https://downloads.intercomcdn.com/i/o/286281485/e632d0046228aa7fc546d9da/image.png)
+![](/tmpimg/no-workloads.png)
 
 When you click **_“Create New Workload,”_** the workload creation pane will slide into view.
 
@@ -131,7 +109,7 @@ Defining the Workload Query
 
 **_Step 4_** After you have filled out the metadata for your workload, you can click the gray bar that says, **_“Specify Workload Resource,”_** causing the query builder to slide into view. nOps allows you to specify rules that define which resources will be added to the workload.
 
-[![](https://downloads.intercomcdn.com/i/o/286281876/8c71b2bfb0429e91379c0834/image.png)](https://downloads.intercomcdn.com/i/o/286281876/8c71b2bfb0429e91379c0834/image.png)
+![](/tmpimg/workload-specify-resources.png)
 
 * **Regions** \- The regions that nOps will pull resources from. This defaults to All.
     
@@ -149,11 +127,11 @@ Workload Summary View
 
 **_Step 5_** After you have created your workload, you will see the Workloads view. Here you can see a list of all workloads you’ve created, edit the query that builds your workload, and delete your workload.
 
-[![](https://downloads.intercomcdn.com/i/o/286282109/506af50803db6c5f3407bb6f/image.png)](https://downloads.intercomcdn.com/i/o/286282109/506af50803db6c5f3407bb6f/image.png)
+![](/tmpimg/workloads-list.png)
 
 Click on the workload to be taken to the Workload Summary view. In the Workload Summary view, you will see two sections.
 
-[![](https://downloads.intercomcdn.com/i/o/286282239/3cec7b7c8b883291c2828720/image.png)](https://downloads.intercomcdn.com/i/o/286282239/3cec7b7c8b883291c2828720/image.png)
+![](/tmpimg/wl-attach.png)
 
 **_Assessment Summary_** \- An overview of how far into the assessment you are. _\- Workload Attachments_ \- Any files and/or links attached to the workload are added to the report generated by nOps when the assessment is completed.
 
@@ -162,7 +140,7 @@ Running the FTR Assessment
 
 You might notice that the assessment is at a completion percentage greater than 0. This is normal and due to the fact that nOps uses its rules engine to discover information about the workload automatically. Click _“Start Assessment”_ to begin the FTR Assessment.
 
-[![](https://downloads.intercomcdn.com/i/o/286282463/07cfd400863550f1e801495f/image.png)](https://downloads.intercomcdn.com/i/o/286282463/07cfd400863550f1e801495f/image.png)
+![](/tmpimg/wl-assess.png)
 
 For each question in the FTR, nOps will either automatically detect the answer to the question or allow you to answer it manually. Clicking on the box(es) in each section will designate that your workload meets or exceeds the particular requirements. You can add notes to a particular question by clicking “Add Note.” Hovering the mouse over the question will raise a context menu that gives you several options.
 

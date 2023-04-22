@@ -14,7 +14,7 @@ folder: UserGuides
 
 nOps provides an easy and automated method for you to query your cloud resources directly from the nOps platform with the help of nOps **Data Explorer** powered by GraphQL.
 
-[![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/638828852/ef496196a857cb7c81ec16cd/oP1PIDEmbHKh5pH9PwFlXDh9nQJ5ykFmf_LLnP8XEiUiJ6HdIL5BLVyDnOu_PUL1pKPj8_4_AsYio0HzHW0owaZlsMeWNM_WySbcCEkPwWVc0aOdZkFLEX5ni7VP0R7JHZ6p5ANdKbDsdSXR1A1m7fxqEhOj16LRYfeTf9LLGkl57dDjSxXMw2a4HjrauQ)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/638828852/ef496196a857cb7c81ec16cd/oP1PIDEmbHKh5pH9PwFlXDh9nQJ5ykFmf_LLnP8XEiUiJ6HdIL5BLVyDnOu_PUL1pKPj8_4_AsYio0HzHW0owaZlsMeWNM_WySbcCEkPwWVc0aOdZkFLEX5ni7VP0R7JHZ6p5ANdKbDsdSXR1A1m7fxqEhOj16LRYfeTf9LLGkl57dDjSxXMw2a4HjrauQ)
+![](/tmpimg/data-exp.png)
 
 The nOps **Data Explorer** is divided into:
 
@@ -98,35 +98,35 @@ Data Explorer actions support the entire exploring process. With Data Explorer a
 * **Documentation Explorer:** Access the GraphQL Schema documentation right here in the Data Explorer.
     
 
-[![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/638828857/4d5fe4832a8b61b6d5acdc74/9RQJtT5XDiPrbRrI-VkTb3LrYpx1ZmlZtVltRAjOLstCiNqnrIr4tPWLXkKA8OrS83o6HckYTS9x3N_rVCnJiI3zd206LXfEP8MlorsVH5f9s3XLwg42l_m6N0XtZM5HV9nw4HZtAwkW8ryG8z9bxf2HPCNIhK6zlxGHphmoAY9cXZAb4phCfl0kAZmUTw)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/638828857/4d5fe4832a8b61b6d5acdc74/9RQJtT5XDiPrbRrI-VkTb3LrYpx1ZmlZtVltRAjOLstCiNqnrIr4tPWLXkKA8OrS83o6HckYTS9x3N_rVCnJiI3zd206LXfEP8MlorsVH5f9s3XLwg42l_m6N0XtZM5HV9nw4HZtAwkW8ryG8z9bxf2HPCNIhK6zlxGHphmoAY9cXZAb4phCfl0kAZmUTw)
+![](/tmpimg/data-expl-menu-bar.png)
 
 ### Save Query ###
 ----------
 
 With the **Save Query** button, you will be able to perform actions on your created queries. You can save your queries as **Public** and **Private**.
 
-[![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/638828860/4280cffb79fbbf5f2dddfa32/AD1ifJfNlRMSBlVH-sXZ3Q0CvVAaSMG_cORN9uKoDpV58PcXXICAtopqL5Mtjs2j9rfZknXKjyM3eS0lgFqoo7MJ3XK4G8NjdYXvur4xsxX3_xiALyqS67FazhDRU48-CEaJ5En-QHXKh_0AP0xN_AnaRMFLm58wAEydDTae8-NNKGmLkVvfAh3SRqvZvw)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/638828860/4280cffb79fbbf5f2dddfa32/AD1ifJfNlRMSBlVH-sXZ3Q0CvVAaSMG_cORN9uKoDpV58PcXXICAtopqL5Mtjs2j9rfZknXKjyM3eS0lgFqoo7MJ3XK4G8NjdYXvur4xsxX3_xiALyqS67FazhDRU48-CEaJ5En-QHXKh_0AP0xN_AnaRMFLm58wAEydDTae8-NNKGmLkVvfAh3SRqvZvw)
+![](/tmpimg/save-query-prompt.png)
 
 ### My Queries ###
 ----------
 
 My Queries will open a panel where you can access all the queries that you have saved and those shared by your colleagues. In addition, you'll be able to favorite, archive, and delete to keep them organized.
 
-[![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/638828866/a76d16244f773ca8bf23e30b/hpFfRUdvpmF6NCvoHhC945SzLLLLLhUQ6MGligx0_BHQmG1PkVBOJKSRatoIt9tPfow6qfMbokItBAZJL4oI0jT2vB2QmQbX2aDP7mTRkunW_URpXODqOW2Osgzt2UU65jz2OouQVVNJQrVsMgmKGXn4gbE3D6EjdD7Qk3azDMza1ugYgRSCqjA4ZBClYQ)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/638828866/a76d16244f773ca8bf23e30b/hpFfRUdvpmF6NCvoHhC945SzLLLLLhUQ6MGligx0_BHQmG1PkVBOJKSRatoIt9tPfow6qfMbokItBAZJL4oI0jT2vB2QmQbX2aDP7mTRkunW_URpXODqOW2Osgzt2UU65jz2OouQVVNJQrVsMgmKGXn4gbE3D6EjdD7Qk3azDMza1ugYgRSCqjA4ZBClYQ)
+![](/tmpimg/saved-queries.png)
 
 ### Code Exporter ###
 -------------
 
 Once you've created a query that returns a meaningful set of resources –like looking for unencrypted S3 buckets– you'll likely want to integrate with your CI/CD or monitoring system so that you can continuously monitor for matches. The **Code Exporter** will generate _Python_ and _Javascript_ code that can be easily integrated into your engineering systems.
 
-[![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/638828868/94d892cb30baaaaafa736cad/4fyhwkoK3FxYZxXlGt7yE8_7NUACtxa_-lQBTTN08jXigPb9kGw9ScvZFX1WDLnVgph-PPH3weZyg2Qs-owcCD275cVpJv9RjLewmuQpyc8K0rxNsqLduSdmtdyaPIautr4A705cdFm4JVnNrX0p3UMquODCXAQu4pBn2L-eyqpaE6ATZ-XYc1jii_ymDw)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/638828868/94d892cb30baaaaafa736cad/4fyhwkoK3FxYZxXlGt7yE8_7NUACtxa_-lQBTTN08jXigPb9kGw9ScvZFX1WDLnVgph-PPH3weZyg2Qs-owcCD275cVpJv9RjLewmuQpyc8K0rxNsqLduSdmtdyaPIautr4A705cdFm4JVnNrX0p3UMquODCXAQu4pBn2L-eyqpaE6ATZ-XYc1jii_ymDw)
+![](/tmpimg/code-exporter.png)
 
 ### Documentation Explorer ###
 ----------------------
 
 With the **Documentation Explorer**, you can access the GraphQL Schema documentation right here in the **Data Explorer** while creating your queries.
 
-[![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/638828872/46dad86fdc5796c6940f30f9/8HGbOgy1AlKMO9ERgtaLLvkBL-zEntEV88sudWnxIVo8Q3G6s4J18e3P00fLlRFwGieRo_03Kyu8bAajowrNWws5BJOgyDoS1kii95HbttakU75g70_e2a7zspTBpvynXw9w9cyxymWTQQPzwtSxgNcfVXyPu3tHwtpD1372mlnt5YQQiyDxOItlAOiI8g)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/638828872/46dad86fdc5796c6940f30f9/8HGbOgy1AlKMO9ERgtaLLvkBL-zEntEV88sudWnxIVo8Q3G6s4J18e3P00fLlRFwGieRo_03Kyu8bAajowrNWws5BJOgyDoS1kii95HbttakU75g70_e2a7zspTBpvynXw9w9cyxymWTQQPzwtSxgNcfVXyPu3tHwtpD1372mlnt5YQQiyDxOItlAOiI8g)
+![](/tmpimg/schema.png)
 
 ### Sample Data Explorer Queries ###
 ============================

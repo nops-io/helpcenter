@@ -28,17 +28,17 @@ Review Amazon Cloudwatch metrics to identify usage patterns and needs that enabl
 *   **Temporary:** Do you have temporary workloads with flexible starting times that you can interrupt? Avoid using an on-demand instance. Instead, place a bid on an Amazon EC2 Spot Instance.
     
 
-Click on **Cost Control:**
+Click on **Cost**
 
-[![](https://downloads.intercomcdn.com/i/o/366334326/b0c3a892c034af1d67601c86/image.png)](https://downloads.intercomcdn.com/i/o/366334326/b0c3a892c034af1d67601c86/image.png)
 
 Select **Resource Rightsizing:**
 
-[![](https://downloads.intercomcdn.com/i/o/366335352/711cc6925b92c758f024508b/image.png)](https://downloads.intercomcdn.com/i/o/366335352/711cc6925b92c758f024508b/image.png)
+![](/tmpimg/righsizingmenu.png)
+
 
 Use the tabs at the top to switch between EC2, RDS, and S3:
 
-[![](https://downloads.intercomcdn.com/i/o/366336025/ac7b084f846a8a7697613179/image.png)](https://downloads.intercomcdn.com/i/o/366336025/ac7b084f846a8a7697613179/image.png)
+![](/tmpimg/rightsizing-tabs.png)
 
 Use the Filters section to look through specific information on:
 
@@ -57,13 +57,13 @@ Use the Filters section to look through specific information on:
 
 **Current Config** and **Suggested Config** columns use data over the past 2 weeks to make the suggestion of downsizing:
 
-[![](https://downloads.intercomcdn.com/i/o/366338874/836ae2b0f496e9a669434742/image.png)](https://downloads.intercomcdn.com/i/o/366338874/836ae2b0f496e9a669434742/image.png)
+![](/tmpimg/rightsize-suggestions.png)
 
 Click on **Resource Details** to look at Resource Details, Cost History, and Configuration History:
 
-[![](https://downloads.intercomcdn.com/i/o/366799622/1f87de94eaa1d639827baccf/image.png)](https://downloads.intercomcdn.com/i/o/366799622/1f87de94eaa1d639827baccf/image.png)
+![](/tmpimg/rightsizing-select-resource-details.png)
 
-[![](https://downloads.intercomcdn.com/i/o/366798793/fd6599131667a5c7dbe1ac02/image.png)](https://downloads.intercomcdn.com/i/o/366798793/fd6599131667a5c7dbe1ac02/image.png)
+![](/tmpimg/rightsizing-ec2-metrics.png)
 
 ## How does nOps Rightsizing Algorithm Work? ##
 =========================================

@@ -39,25 +39,25 @@ Example. _(type = ec2 or type = s3) and cost.usagetype.cost > 13.37_
 
 **Examples:**
 
-Find all EC2 instances with VPC equals "_vpc-092eb20aa971a6e0b_" or "_vpc-d5339bb0_" and with the total cost less than or equal to $500:  
-_vpc\_id in \["vpc-092eb20aa971a6e0b", "vpc-d5339bb0"\] and type=ec2 and cumulative\_cost &lt;= 500_
+Find all EC2 instances with VPC equals "_vpc-5fd2813a_" or "_vpc-085d9f5d25afd93c2_" and with the total cost less than or equal to $500:  
+_vpc\_id in \["vpc-5fd2813a", "vpc-085d9f5d25afd93c2"\] and type=ec2 and cumulative\_cost &lt;= 500_
 
-[![](https://downloads.intercomcdn.com/i/o/286795017/53f3435241488eca2e5f746d/image.png)](https://downloads.intercomcdn.com/i/o/286795017/53f3435241488eca2e5f746d/image.png)
+![](/tmpimg/dsl-1.png)
 
 Find all EC2 instances with the Average CPU Utilization less than 30% for the last 3 months  
 _type=ec2 and utilization.months.months\_3.cpu.cpu\_usage < 30.00_
 
-[![](https://downloads.intercomcdn.com/i/o/286796163/176deb61cd48e152bacee93a/image.png)](https://downloads.intercomcdn.com/i/o/286796163/176deb61cd48e152bacee93a/image.png)
+![](/tmpimg/dsl-2.png)
 
 Find all EBS volumes without Encryption enabled  
 _type=ebs and encrypted=false_
 
-[![](https://downloads.intercomcdn.com/i/o/286795454/ee608370ba4ca5d59075ae20/image.png)](https://downloads.intercomcdn.com/i/o/286795454/ee608370ba4ca5d59075ae20/image.png)
+![](/tmpimg/dsl-3.png)
 
 Find all EC2 instances launched after some date:  
 _type=ec2 and launch\_time>2020-01-01_
 
-[![](https://downloads.intercomcdn.com/i/o/286795752/4a1c2c4318ea7662532c346d/image.png)](https://downloads.intercomcdn.com/i/o/286795752/4a1c2c4318ea7662532c346d/image.png)
+![](/tmpimg/dsl-4.png)
 
 These are a list of the fields that can be used for query. Subsequently this list will be limited to some pre-defined set of fields only
 

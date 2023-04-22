@@ -7,7 +7,7 @@ permalink: dashboards-nops-dashboard.html
 folder: UserGuides
 ---
 
-# nOps Dashboard #
+# The nOps Dashboard #
 
 Use nOps Cost Control facilities to manage and optimize your cloud costs.
 
@@ -36,11 +36,9 @@ To access nOps **Cost** facilities:
 
 This topic describes:
 
-* [nOps Dashboard](#h_2a5594293e)
+* [nOps Dashboard](#nops-dashboard)
     
-* [Overall Cost Features](#h_dbf45b5d1d)
-    
-* [nOps Analysis Tools in Cloud Resources Cost](#h_c25c4ed3d7)
+* [Overall Cost Features](#overall-cost-control-options)
     
 
 ## nOps Dashboard ##

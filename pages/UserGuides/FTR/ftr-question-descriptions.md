@@ -244,4 +244,4 @@ _Solutions handling PHI must use services in the HIPAA Eligible Services Referen
 
 **Establish a process to ensure that all required compliance standards are met.**
 
-_If you advertise that your product meets specific compliance standards, you must have an internal process for ensuring compliance. Examples of compliance standards include PCI DSS, FedRAMP, and HIPAA. Applicable compliance standards are determined by various factors, such as what types of data the solution stores or transmits and which geographic regions the solution supports._
+_If you advertise that your product meets specific compliance standards, you must have an internal process for ensuring compliance. Examples of compliance standards include PCI DSS, FedRAMP, and HIPAA. Applicable compliance standards are determined by various factors, such as what types of data the solution stores or transmits and which geographic regions the solution supports._ 

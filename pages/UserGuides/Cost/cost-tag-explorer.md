@@ -29,7 +29,7 @@ This feature is available from a Client Page.
 
 On the NavBar click **Cost Explorer > Tag Explorer**
 
-[![](https://downloads.intercomcdn.com/i/o/313755913/6eac8aa6ec60fa929fbf0e1a/image.png)](https://downloads.intercomcdn.com/i/o/313755913/6eac8aa6ec60fa929fbf0e1a/image.png)
+![](/tmpimg/tag-explorer-menu.png)
 
 **Filter by any of the following:**
 -----------------------------------
@@ -59,13 +59,13 @@ When hovering over the row for Tags used on the left-hand side it will breakdown
 
 In the **All tags list**, you can select a tag to view details. To do this click the arrow in the **ACTION** column.
 
-[![](https://downloads.intercomcdn.com/i/o/313796525/76b616d873ebc1e79a603b15/image.png)](https://downloads.intercomcdn.com/i/o/313796525/76b616d873ebc1e79a603b15/image.png)
+![](/tmpimg/tag-click-for-values.png)
 
 The following page displays a breakdown of the **Tag name**. From this page you can see: Service, Resource name, Project, Region, and Total Cost.
 
 Clicking the arrow in the **ACTION** column, for details about the selected Service .
 
-[![](https://downloads.intercomcdn.com/i/o/313798905/e38bfb9f46237c48be44ee8c/image.png)](https://downloads.intercomcdn.com/i/o/313798905/e38bfb9f46237c48be44ee8c/image.png)
+![](/tmpimg/tag-value-resource-action.png)
 
 A pop-up dialog provides details on when the Service was created and last used.
 
@@ -74,4 +74,4 @@ A pop-up dialog provides details on when the Service was created and last used.
 *   Click **View Resource on AWS Console** to navigate directly to the resource in your AWS Account.
     
 
-[![](https://downloads.intercomcdn.com/i/o/313802256/2274d3c62ed6f8c2e1572304/image.png)](https://downloads.intercomcdn.com/i/o/313802256/2274d3c62ed6f8c2e1572304/image.png)
+![](/tmpimg/resource-jira-console.png)

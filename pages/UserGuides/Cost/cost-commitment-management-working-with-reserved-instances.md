@@ -49,7 +49,7 @@ To access **Reserved Instances** management:
     
 2.  From the Dashboard, click **Cost** to open the drop-down menu, and choose _Commitment Management_:
     
-    [![](https://downloads.intercomcdn.com/i/o/569820784/c152cf090b58d2e91e25e869/2022-08-26_19-43-54.png)](https://downloads.intercomcdn.com/i/o/569820784/c152cf090b58d2e91e25e869/2022-08-26_19-43-54.png)
+    ![](/tmpimg/commitment-main-menu.png)
     
 3.  Note that the in the Commitment Management dashboard the following tabs are for Reserved Instances:
     
@@ -59,7 +59,7 @@ To access **Reserved Instances** management:
         
     
 
-[![](https://downloads.intercomcdn.com/i/o/569826605/ab862ffa15a136d65da86326/2022-08-26_19-50-59.png)](https://downloads.intercomcdn.com/i/o/569826605/ab862ffa15a136d65da86326/2022-08-26_19-50-59.png)
+![](/tmpimg/com-manage-ri-planning.png)
 
 ## Reserved Instance Planning ##
 ==========================
@@ -71,13 +71,13 @@ Recommended Instance Reservations
 *   Based on your current instance use, recommends how many reserved instances you should have to cover that use, and shows what the savings would be.
     
 
-[![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/529400112/a07cd250096a6d7bda825f5b/gWK7FNriVla2mst6U2FWlX-GIpmXF4jAtTZFlNDutLZ95_94aRLJjYTZYBVyVsQgD27EdZFNUmwLHAptGAkFj6GRQ_XEhQNAIyzBJlrYDDys-V53rKoL0v2amEfj8I1-Cx_5N9mtwtq_T8HfJQ)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/529400112/a07cd250096a6d7bda825f5b/gWK7FNriVla2mst6U2FWlX-GIpmXF4jAtTZFlNDutLZ95_94aRLJjYTZYBVyVsQgD27EdZFNUmwLHAptGAkFj6GRQ_XEhQNAIyzBJlrYDDys-V53rKoL0v2amEfj8I1-Cx_5N9mtwtq_T8HfJQ)
+![](/tmpimg/ri-headers.png)
 
 *   Note that the instance use is per combination of instance type, AWS region, and OS – the three left-hand columns.
     
 *   If the number of records exceeds the table maximum, click the blue **Download** button to get a CSV that includes the full list of recommendations:
 
-![](https://downloads.intercomcdn.com/i/o/554265535/06ed4c8a6281a505466aa62b/Download+Button.png)
+![](/tmpimgDownload-Button.png)
 
 ### Historical Usage ###
 -----------------------------------------------
@@ -113,7 +113,7 @@ The boxes at the top of this page summarize:
 *   **Running Instance Coverage**
     
 
-[![](https://downloads.intercomcdn.com/i/o/569827638/ec2e885fea87fae5a1ff1d89/2022-08-26_19-53-45.png)](https://downloads.intercomcdn.com/i/o/569827638/ec2e885fea87fae5a1ff1d89/2022-08-26_19-53-45.png)
+![](/tmpimg/ri-coverage.png)
 
 **Running Normalized Units** and **Reserved Normalized Units** are explained by the [AWS documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/apply_ri.html) for the various instance families.
 
@@ -123,25 +123,25 @@ Below the boxes, the **Reserved Instances** list gives RI coverage for AWS accou
 
 **Note:** The column headings on this page include sorting by clicking on the column heading, plus filtering and column-choice options that appear and can be chosen when you hover over any column heading:
 
-[![](https://downloads.intercomcdn.com/i/o/569847244/08598e765bbf68dc705618bb/Click+Column+Heading+to+Sort.png)](https://downloads.intercomcdn.com/i/o/569847244/08598e765bbf68dc705618bb/Click+Column+Heading+to+Sort.png)
+![](/tmpimg/Click-Column-Heading-to-Sort.png)
 
-[![](https://downloads.intercomcdn.com/i/o/569843742/43d2d44364e12546c2d29bc7/Click+Hamburger+Symbol+for+Column-Heading+Drop-Down.png)](https://downloads.intercomcdn.com/i/o/569843742/43d2d44364e12546c2d29bc7/Click+Hamburger+Symbol+for+Column-Heading+Drop-Down.png)
+![](/tmpimg/Click+Hamburger+Symbol+for+Column-Heading+Drop-Down.png)
 
 When you hover over a column heading, then click the symbol that appears, options appear for column sizing:
 
-[![](https://downloads.intercomcdn.com/i/o/569844513/661d06b678c657b744b6cf96/Coverage+Page+Column+Options.png)](https://downloads.intercomcdn.com/i/o/569844513/661d06b678c657b744b6cf96/Coverage+Page+Column+Options.png)
+![](/tmpimg/Coverage+Page+Column+Options.png)
 
 Note that filtering and column-choice options are also in the heading of the drop-down – here’s the filtering option used to show reserved-instance coverage for a specific region:
 
-[![](https://downloads.intercomcdn.com/i/o/569847909/6b6dda3528e9f9d996c9f7c5/Column-Heading+Drop-Down+Filter+by+Region+Example.png)](https://downloads.intercomcdn.com/i/o/569847909/6b6dda3528e9f9d996c9f7c5/Column-Heading+Drop-Down+Filter+by+Region+Example.png)
+![](/tmpimg/Column-Heading+Drop-Down+Filter+by+Region+Example.png)
 
 The column-choice options let you include in the table only the columns of use to you:
 
-[![](https://downloads.intercomcdn.com/i/o/569848502/4db04b11cf22667d2e653f7b/Column-Heading+Drop-Down+Choose+Columns.png)](https://downloads.intercomcdn.com/i/o/569848502/4db04b11cf22667d2e653f7b/Column-Heading+Drop-Down+Choose+Columns.png)
+![](/tmpimg/Column-Heading+Drop-Down+Choose+Columns.png)
 
 Symbols in the column headings show the sorting and filtering that are in effect:
 
-[![](https://downloads.intercomcdn.com/i/o/569849051/e01ad7566456ece3aac84ba8/Filtered+by+Region+Sorted+by+Family.png)](https://downloads.intercomcdn.com/i/o/569849051/e01ad7566456ece3aac84ba8/Filtered+by+Region+Sorted+by+Family.png)
+![](/tmpimg/Filtered+by+Region+Sorted+by+Family.png)
 
 Note also the arrow → in the **Action** column, which you can click to view the details page for that account group. More than one account can be included in a group.
 
@@ -149,41 +149,41 @@ The filtering and sorting options you’ve chosen on the main Coverage page pers
 
 Note also the Refresh data button at the upper right:
 
-[![](https://downloads.intercomcdn.com/i/o/554270513/245e821ad6368c9cc66337c5/Refresh+Data+Button.png)](https://downloads.intercomcdn.com/i/o/554270513/245e821ad6368c9cc66337c5/Refresh+Data+Button.png)
+![](/tmpimg/Refresh+Data+Button.png)
 
 **Reserved Instance Coverage Details**
 --------------------------------------
 
 In the details page, accessed by clicking the arrow in the **Action** column, boxes at the top summarize account, region, OS (platform), etc. of the line you’ve chosen:
 
-[![](https://downloads.intercomcdn.com/i/o/569849445/118eeafa1802ae3760664057/Reserved+Instances+Details+Page.png)](https://downloads.intercomcdn.com/i/o/569849445/118eeafa1802ae3760664057/Reserved+Instances+Details+Page.png)
+![](/tmpimg/Reserved+Instances+Details+Page.png)
 
 The **Usage Summary** graph shows running and reserved instances in normalized units, over the last 12 hours – though you can change the time period by pulling down the blue button at the right:
 
-[![](https://downloads.intercomcdn.com/i/o/554271457/c96c206ddf2d7139390b02da/Last+12+Hours+Button.png)](https://downloads.intercomcdn.com/i/o/554271457/c96c206ddf2d7139390b02da/Last+12+Hours+Button.png)
+![](/tmpimg/Last+12+Hours+Button.png)
 
-[![](https://downloads.intercomcdn.com/i/o/554271584/afac33d69355a6d3b00da061/Last+12+Hours+Pull-Down.png)](https://downloads.intercomcdn.com/i/o/554271584/afac33d69355a6d3b00da061/Last+12+Hours+Pull-Down.png)
+![](/tmpimg/Last+12+Hours+Pull-Down.png)
 
 The delta between the Reserved and Running lines in the graph help you understand how much under-provisioned or over-provisioned you are in reserved instances over time.
 
-**Important:** You can set a webhook to inform you if you are running a deficit or a surplus on Reserved Instance coverage. See the [Webhooks](https://docs.nops.io/en/articles/6067368-webhook-integrations) topic for more information.
+**Important:** You can set a webhook to inform you if you are running a deficit or a surplus on Reserved Instance coverage. See the [Webhooks](webhook-integrations.html) topic for more information.
 
 Note the two tabs below the chart that provide tabulated details for reserved and running instances:
 
-[![](https://downloads.intercomcdn.com/i/o/554272624/bbbf916ae64d852403b5349c/Reserved+Instances+Details+-+Running+Instances+Details+Cropped.png)](https://downloads.intercomcdn.com/i/o/554272624/bbbf916ae64d852403b5349c/Reserved+Instances+Details+-+Running+Instances+Details+Cropped.png)
+![](/tmpimg/Reserved+Instances+Details+-+Running+Instances+Details+Cropped.png)
 
 And, in the tables under those tabs, the column heads provide the same sorting, filtering, and column-choice abilities as described above for the Coverage page itself. Click on any column heading to sort (repeated clicks change sort order), or hover over any column heading and click the icon that appears to filter, choose columns, and adjust column width.
 
 Use the **Go Back** button at the upper left to return to the **Reserved Instance Coverage** page:
 
-[![](https://downloads.intercomcdn.com/i/o/554272762/831b4f5402761a77b8ae333a/Go+Back+Button.png)](https://downloads.intercomcdn.com/i/o/554272762/831b4f5402761a77b8ae333a/Go+Back+Button.png)
+
 
 ## Savings Plans Recommendations ##
 =============================
 
 In the **Savings Plans Recommendations** tab, you can tweak the filter properties to calculate the savings you can get on Reserved instances if you buy Savings Plans:
 
-[![](https://downloads.intercomcdn.com/i/o/620219888/ac7989f4d9e0f712c75fb58a/2022-11-21_02-15-23.png)](https://downloads.intercomcdn.com/i/o/620219888/ac7989f4d9e0f712c75fb58a/2022-11-21_02-15-23.png)
+![](/tmpimg/2022-11-21_02-15-23.png)
 
 In the **Filters** section, you can select the desired:
 
@@ -263,7 +263,7 @@ If you have purchased Savings Plans, you can see well you are utilizing the Savi
 
 In the **Savings Plan Utilization** tab, you can select the AWS account in the Project drop-down list and use the Calendar field to filter the timeframe for which you want to check the utilization of your Savings Plans:
 
-[![](https://downloads.intercomcdn.com/i/o/620219931/a3c75363d7cd4939688b37c3/2022-11-21_02-21-44.png)](https://downloads.intercomcdn.com/i/o/620219931/a3c75363d7cd4939688b37c3/2022-11-21_02-21-44.png)
+![](/tmpimg/2022-11-21_02-21-44.png)
 
 In the Savings Plan Utilization tab, you can see the:
 
