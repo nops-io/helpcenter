@@ -17,6 +17,7 @@ folder: Developer
       
     nOps Slack Integration Lambda code in Github:   
     [https://github.com/nops-io/nops-rules-lambda/tree/master/scheduler/slack](https://github.com/nops-io/nops-rules-lambda/tree/master/scheduler/slack)
+
 * nOps generated API key (we do not need to generate public and private keys for this SlackBot):
     * Log into the nOps console and from the **Settings** pane click the **API Key** option
     * Click on **Let’s Generate Your API Key**
@@ -92,7 +93,10 @@ We need to set the ACCESS_KEY above in the Lambda configuration under _**‘Envi
 
 4.  Once the chatbot is created, go to the nSwitch SlackBot Lambda Function channel and use the following command to invoke the Lambda function:
 
+```
     @aws
      lambda invoke --payload {"schedule_id":"your_schedule_id", "schedule_action":"start"} --function-name invoke-scheduler --region us-west-2
+
+```
 
 > **Note:** You can use the following link to know “How to create an aws chatbot using Lambda”: [https://docs.aws.amazon.com/chatbot/latest/adminguide/chatbot-run-lambda-function-remotely-tutorial.html](https://docs.aws.amazon.com/chatbot/latest/adminguide/chatbot-run-lambda-function-remotely-tutorial.html)

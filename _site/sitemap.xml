@@ -8,43 +8,13 @@
   
   
   <url>
-    <loc>http://localhost:4000/pages/UserGuides/Workload/add-new-resources-to-workloads.html</loc>
+    <loc>http://localhost:4000/automated-tagging-for-aws-map.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/pages/UserGuides/Settings/adding-users-to-nops.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/pages/UserGuides/Workload/attach-documents-to-workloads.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/pages/UserGuides/MAP/automated-tagging-for-aws-migration-assistance-program.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/pages/UserGuides/MAP/backfilling-a-cur-file.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/pages/UserGuides/Settings/change-password.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/pages/UserGuides/Security/check-if-the-root-account-has-mfa-activated.html</loc>
+    <loc>http://localhost:4000/backfilling-a-cur-file.html</loc>
   </url>
   
   
@@ -86,24 +56,6 @@
   
   
   <url>
-    <loc>http://localhost:4000/pages/UserGuides/Workload/create-workloads.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/pages/UserGuides/Rules/custom-rules.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/pages/UserGuides/Settings/customize-settings.html</loc>
-  </url>
-  
-  
-  
-  <url>
     <loc>http://localhost:4000/dashboards-nops-dashboard.html</loc>
   </url>
   
@@ -111,18 +63,6 @@
   
   <url>
     <loc>http://localhost:4000/dashboards-nops-dsl.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/pages/UserGuides/Settings/data-purge.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/developer-api-list.html</loc>
   </url>
   
   
@@ -140,25 +80,7 @@
   
   
   <url>
-    <loc>http://localhost:4000/pages/UserGuides/Settings/disable-notifications-for-a-user.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/pages/UserGuides/Workload/evaluate-risk-for-a-workload.html</loc>
-  </url>
-  
-  
-  
-  <url>
     <loc>http://localhost:4000/eventbridge-integration.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/pages/UserGuides/WAFR/export-a-wafr-report.html</loc>
   </url>
   
   
@@ -177,12 +99,6 @@
   
   <url>
     <loc>http://localhost:4000/ftr-question-descriptions.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/pages/UserGuides/ShareSave/getting-started-with-sharesave.html</loc>
   </url>
   
   
@@ -236,12 +152,6 @@
   
   
   <url>
-    <loc>http://localhost:4000/pages/UserGuides/Settings/notification-center.html</loc>
-  </url>
-  
-  
-  
-  <url>
     <loc>http://localhost:4000/onboarding-aws-linked-accounts.html</loc>
   </url>
   
@@ -278,37 +188,85 @@
   
   
   <url>
-    <loc>http://localhost:4000/pages/UserGuides/Settings/recover-password.html</loc>
+    <loc>http://localhost:4000/rules-custom.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/pages/UserGuides/Reports/reports.html</loc>
+    <loc>http://localhost:4000/rules-view-ebs.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/pages/UserGuides/Rules/rules.html</loc>
+    <loc>http://localhost:4000/rules-view-iam-violations.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/pages/UserGuides/Security/security.html</loc>
+    <loc>http://localhost:4000/rules-view-underutilized-network-resources.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/pages/UserGuides/Settings/settings.html</loc>
+    <loc>http://localhost:4000/security-mfa-activated.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/pages/UserGuides/ShareSave/sharesave.html</loc>
+    <loc>http://localhost:4000/security-view-violations.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/settings-adding-users-to-nops.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/settings-change-password.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/settings-customize.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/settings-data-purge.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/settings-disable-notifications.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/settings-notification-center.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/settings-recover-password.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/sharesave-overview.html</loc>
   </url>
   
   
@@ -338,7 +296,7 @@
   
   
   <url>
-    <loc>http://localhost:4000/solutions-using-nswitch-to-reduce-costs.html</loc>
+    <loc>http://localhost:4000/solutions-using-eventbridge-with-nswitch-to-reduce-costs.html</loc>
   </url>
   
   
@@ -395,44 +353,22 @@
   
   
   
+  
+  
   <url>
-    <loc>http://localhost:4000/pages/UserGuides/user-guides.html</loc>
+    <loc>http://localhost:4000/wafr-export.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/pages/UserGuides/Workload/view-and-manage-workloads.html</loc>
+    <loc>http://localhost:4000/wafr-report.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/pages/UserGuides/Rules/view-iam-violations.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/pages/UserGuides/Security/view-security-violations.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/pages/UserGuides/Rules/view-under-utilized-ebs-volumes.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/pages/UserGuides/Rules/view-under-utilized-network-resources.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/pages/UserGuides/WAFR/wafr.html</loc>
+    <loc>http://localhost:4000/wafr-review.html</loc>
   </url>
   
   
@@ -444,31 +380,43 @@
   
   
   <url>
-    <loc>http://localhost:4000/pages/UserGuides/Reports/weekly-reports.html</loc>
+    <loc>http://localhost:4000/weekly-reports.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/pages/UserGuides/WAFR/well-architected-framework-report.html</loc>
+    <loc>http://localhost:4000/workload-add-new-resources.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/pages/UserGuides/WAFR/well-architected-framework-review.html</loc>
+    <loc>http://localhost:4000/workload-api.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/pages/UserGuides/Workload/workload-api.html</loc>
+    <loc>http://localhost:4000/workload-attach-documents.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/pages/UserGuides/Workload/workload.html</loc>
+    <loc>http://localhost:4000/workload-create.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/workload-evaluate-risk.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/workload-view-and-manage.html</loc>
   </url>
   
   

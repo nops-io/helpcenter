@@ -2,64 +2,19 @@
 [
 
 {
-"title": "Add New Resources to Workloads",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesWorkloadadd-new-resources-to-workloads.html",
-"summary": ""
-}
-,
-
-{
-"title": "Adding users to nOps",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesSettingsadding-users-to-nops.html",
-"summary": ""
-}
-,
-
-{
-"title": "Attach Documents to Workloads",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesWorkloadattach-documents-to-workloads.html",
-"summary": ""
-}
-,
-
-{
 "title": "Automated Tagging for AWS Migration Assistance Program",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesMAPautomated-tagging-for-aws-migration-assistance-program.html",
+"tags": "compliancereporting",
+"keywords": "reporting, integrations, map",
+"url": "automated-tagging-for-aws-map.html",
 "summary": ""
 }
 ,
 
 {
 "title": "Backfilling a CUR file for MAP",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesMAPbackfilling-a-cur-file.html",
-"summary": ""
-}
-,
-
-{
-"title": "Change Password",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesSettingschange-password.html",
-"summary": ""
-}
-,
-
-{
-"title": "Check if the Root Account has MFA Activated",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesSecuritycheck-if-the-root-account-has-mfa-activated.html",
+"tags": "compliancereporting",
+"keywords": "reporting, integrations",
+"url": "backfilling-a-cur-file.html",
 "summary": ""
 }
 ,
@@ -119,33 +74,6 @@
 ,
 
 {
-"title": "Create Workloads",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesWorkloadcreate-workloads.html",
-"summary": ""
-}
-,
-
-{
-"title": "Creating nOps Custom Rules",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesRulescustom-rules.html",
-"summary": ""
-}
-,
-
-{
-"title": "Customize Settings",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesSettingscustomize-settings.html",
-"summary": ""
-}
-,
-
-{
 "title": "The nOps Dashboard",
 "tags": "cost_visibilityreporting",
 "keywords": "cost reporting, cost history, cost allocation",
@@ -159,24 +87,6 @@
 "tags": "cost_visibilityreporting",
 "keywords": "cost reporting, cost history, cost allocation",
 "url": "dashboards-nops-dsl.html",
-"summary": ""
-}
-,
-
-{
-"title": "Data Purge",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesSettingsdata-purge.html",
-"summary": ""
-}
-,
-
-{
-"title": "Developer API List",
-"tags": "getting_starteddeveloper",
-"keywords": "setup, onboarding, sharesave, api, developer",
-"url": "developer-api-list.html",
 "summary": ""
 }
 ,
@@ -200,37 +110,10 @@
 ,
 
 {
-"title": "Disable Notifications for a User",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesSettingsdisable-notifications-for-a-user.html",
-"summary": ""
-}
-,
-
-{
-"title": "Evaluate Risk for a Workload",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesWorkloadevaluate-risk-for-a-workload.html",
-"summary": ""
-}
-,
-
-{
 "title": "EventBridge Integration",
 "tags": "agents_integrations",
 "keywords": "reporting, integrations",
 "url": "eventbridge-integration.html",
-"summary": ""
-}
-,
-
-{
-"title": "Export an In-Progress WAFR Report",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesWAFRexport-a-wafr-report.html",
 "summary": ""
 }
 ,
@@ -246,8 +129,8 @@
 
 {
 "title": "Foundational Technical Review Report",
-"tags": "assessmentreporting",
-"keywords": "cost reporting, cost history, cost allocation",
+"tags": "compliancereporting",
+"keywords": "reporting, assessment, compliance",
 "url": "ftr-aws-ftr-report.html",
 "summary": ""
 }
@@ -258,15 +141,6 @@
 "tags": "compliancereporting",
 "keywords": "reporting, assessment, compliance",
 "url": "ftr-question-descriptions.html",
-"summary": ""
-}
-,
-
-{
-"title": "Getting Started with ShareSave",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesShareSavegetting-started-with-sharesave.html",
 "summary": ""
 }
 ,
@@ -344,15 +218,6 @@
 ,
 
 {
-"title": "Notifications Center",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesSettingsnotification-center.html",
-"summary": ""
-}
-,
-
-{
 "title": "Onboarding AWS Linked Accounts",
 "tags": "getting_startedonboarding",
 "keywords": "setup, onboarding",
@@ -407,55 +272,127 @@
 ,
 
 {
+"title": "Creating nOps Custom Rules",
+"tags": "reporting",
+"keywords": "reporting",
+"url": "rules-custom.html",
+"summary": ""
+}
+,
+
+{
+"title": "View Underutilized EBS Volumes",
+"tags": "reporting",
+"keywords": "reporting",
+"url": "rules-view-ebs.html",
+"summary": ""
+}
+,
+
+{
+"title": "View IAM Violations",
+"tags": "reporting",
+"keywords": "reporting",
+"url": "rules-view-iam-violations.html",
+"summary": ""
+}
+,
+
+{
+"title": "View Under-Utilized Network Resources",
+"tags": "reporting",
+"keywords": "reporting",
+"url": "rules-view-underutilized-network-resources.html",
+"summary": ""
+}
+,
+
+{
+"title": "Check Multi-Factor Authentication",
+"tags": "reportingcompliance",
+"keywords": "reporting, security",
+"url": "security-mfa-activated.html",
+"summary": ""
+}
+,
+
+{
+"title": "View Security Violations",
+"tags": "reportingcompliance",
+"keywords": "reporting, security",
+"url": "security-view-violations.html",
+"summary": ""
+}
+,
+
+{
+"title": "Adding users to nOps",
+"tags": "getting_startedsettings",
+"keywords": "getting started, settings",
+"url": "settings-adding-users-to-nops.html",
+"summary": ""
+}
+,
+
+{
+"title": "Change Password",
+"tags": "getting_startedsettings",
+"keywords": "getting started, settings",
+"url": "settings-change-password.html",
+"summary": ""
+}
+,
+
+{
+"title": "Customize Settings",
+"tags": "getting_startedsettings",
+"keywords": "getting started, settings",
+"url": "settings-customize.html",
+"summary": ""
+}
+,
+
+{
+"title": "Data Purge",
+"tags": "getting_startedsettings",
+"keywords": "getting started, settings",
+"url": "settings-data-purge.html",
+"summary": ""
+}
+,
+
+{
+"title": "Disable Notifications",
+"tags": "getting_startedsettings",
+"keywords": "getting started, settings",
+"url": "settings-disable-notifications.html",
+"summary": ""
+}
+,
+
+{
+"title": "Notifications Center",
+"tags": "getting_startedsettings",
+"keywords": "getting started, settings",
+"url": "settings-notification-center.html",
+"summary": ""
+}
+,
+
+{
 "title": "Recover Your Password",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesSettingsrecover-password.html",
+"tags": "getting_startedsettings",
+"keywords": "getting started, settings",
+"url": "settings-recover-password.html",
 "summary": ""
 }
 ,
 
 {
-"title": "Reports",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesReportsreports.html",
-"summary": ""
-}
-,
-
-{
-"title": "Rules",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesRulesrules.html",
-"summary": ""
-}
-,
-
-{
-"title": "Security",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesSecuritysecurity.html",
-"summary": ""
-}
-,
-
-{
-"title": "Settings",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesSettingssettings.html",
-"summary": ""
-}
-,
-
-{
-"title": "ShareSave",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesShareSavesharesave.html",
+"title": "Getting Started with ShareSave",
+"tags": "savingsrecommendationssharesave",
+"keywords": "savings, recommendations, sharesave",
+"url": "sharesave-overview.html",
 "summary": ""
 }
 ,
@@ -497,10 +434,10 @@
 ,
 
 {
-"title": "Using nSwitch to Reduce Costs Automatically",
+"title": "Using EventBridge with nSwitch to Reduce Costs Automatically",
 "tags": "savingsrecommendationssolutions",
 "keywords": "savings, recommendations, solutions",
-"url": "solutions-using-nswitch-to-reduce-costs.html",
+"url": "solutions-using-eventbridge-with-nswitch-to-reduce-costs.html",
 "summary": ""
 }
 ,
@@ -533,64 +470,28 @@
 ,
 
 {
-"title": "User Guides",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesuser-guides.html",
+"title": "Export a WAFR Report",
+"tags": "compliancereporting",
+"keywords": "reporting, assessment, compliance",
+"url": "wafr-export.html",
 "summary": ""
 }
 ,
 
 {
-"title": "View and Manage Workloads",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesWorkloadview-and-manage-workloads.html",
+"title": "Well-Architected Framework Report",
+"tags": "compliancereporting",
+"keywords": "reporting, assessment, compliance",
+"url": "wafr-report.html",
 "summary": ""
 }
 ,
 
 {
-"title": "View IAM Violations",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesRulesview-iam-violations.html",
-"summary": ""
-}
-,
-
-{
-"title": "View Security Violations",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesSecurityview-security-violations.html",
-"summary": ""
-}
-,
-
-{
-"title": "View Under-Utilized EBS Volumes",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesRulesview-under-utilized-ebs-volumes.html",
-"summary": ""
-}
-,
-
-{
-"title": "View Under-Utilized Network Resources",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesRulesview-under-utilized-network-resources.html",
-"summary": ""
-}
-,
-
-{
-"title": "WAFR",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesWAFRwafr.html",
+"title": "Well-Architected Framework Review",
+"tags": "compliancereporting",
+"keywords": "reporting, assessment, compliance",
+"url": "wafr-review.html",
 "summary": ""
 }
 ,
@@ -606,45 +507,63 @@
 
 {
 "title": "Configure Weekly Reports",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesReportsweekly-reports.html",
+"tags": "reporting",
+"keywords": "reporting",
+"url": "weekly-reports.html",
 "summary": ""
 }
 ,
 
 {
-"title": "Well-Architected Framework Report",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesWAFRwell-architected-framework-report.html",
-"summary": ""
-}
-,
-
-{
-"title": "Well-Architected Framework Review",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesWAFRwell-architected-framework-review.html",
+"title": "Add Resources to Workloads",
+"tags": "compliancereporting",
+"keywords": "reporting, assessment, compliance",
+"url": "workload-add-new-resources.html",
 "summary": ""
 }
 ,
 
 {
 "title": "Workload API",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesWorkloadworkload-api.html",
+"tags": "compliancereporting",
+"keywords": "reporting, assessment, compliance",
+"url": "workload-api.html",
 "summary": ""
 }
 ,
 
 {
-"title": "Workload",
-"tags": "",
-"keywords": "",
-"url": "pagesUserGuidesWorkloadworkload.html",
+"title": "Attach Documents to Workloads",
+"tags": "compliancereporting",
+"keywords": "reporting, assessment, compliance",
+"url": "workload-attach-documents.html",
+"summary": ""
+}
+,
+
+{
+"title": "Create Workloads",
+"tags": "compliancereporting",
+"keywords": "reporting, assessment, compliance",
+"url": "workload-create.html",
+"summary": ""
+}
+,
+
+{
+"title": "Evaluate Risk for a Workload",
+"tags": "compliancereporting",
+"keywords": "reporting, assessment, compliance",
+"url": "workload-evaluate-risk.html",
+"summary": ""
+}
+,
+
+{
+"title": "View and Manage Workloads",
+"tags": "compliancereporting",
+"keywords": "reporting, assessment, compliance",
+"url": "workload-view-and-manage.html",
 "summary": ""
 }
 

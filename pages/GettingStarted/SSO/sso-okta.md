@@ -42,7 +42,7 @@ Before you can set up nOps as an App in Okta you will need the following informa
     * **Entity ID**
         
     
-    [![](https://downloads.intercomcdn.com/i/o/472611276/6785beb3217941e5b8aff428/image.png)](https://downloads.intercomcdn.com/i/o/472611276/6785beb3217941e5b8aff428/image.png)
+    ![](/tmpimg/sso-settings.png)
     
 
 ## Step 2: Setup Okta SAML 2.0 Application ##
@@ -70,7 +70,7 @@ Before you can set up nOps as an App in Okta you will need the following informa
     * In the Okta **Audience URI (SP Entity ID)** field, enter **EntityId** information from nOps.
         
     
-    [![](https://downloads.intercomcdn.com/i/o/472612181/75ff1c0d5485bf2e65d7275a/image.png)](https://downloads.intercomcdn.com/i/o/472612181/75ff1c0d5485bf2e65d7275a/image.png)
+    ![](/tmpimg/saml-settings.png)
     
 5.  Add the following **Attributes** and **Group Attribute** from the **Attribute Statements (Optional)** page**.**  
     **IMPORTANT: This information is a mandatory requirement .**  
@@ -82,7 +82,7 @@ Before you can set up nOps as an App in Okta you will need the following informa
     
     Enter them _exactly_ as seen. Click **Add Another** if or when you need to add additional statement rows.  
     
-    [![](https://downloads.intercomcdn.com/i/o/472612812/de3b591aaa6607106288b403/image.png)](https://downloads.intercomcdn.com/i/o/472612812/de3b591aaa6607106288b403/image.png)
+    ![](/tmpimg/okta-attributes.png)
     
     There is information on the nOps page about setting up attribute and group attribute statements. See also [How to create a group in Okta](https://help.okta.com/en/prod/Content/Topics/users-groups-profiles/usgp-view-edit-group-attributes.htm).  
     **IMPORTANT:** A group name _cannot_ contain any spaces. You must add all potential users of nOps in the Okta group that you create.  
@@ -164,6 +164,6 @@ Enter the name of the group you created in Okta in the **Client Admin Groups** o
 
 You can also check the box to specify whether the SAML group configuration can override their nOps role.
 
-[![](https://downloads.intercomcdn.com/i/o/473123566/ac3d9f983ae1ec933c9fa878/image.png)](https://downloads.intercomcdn.com/i/o/473123566/ac3d9f983ae1ec933c9fa878/image.png)
+![](/tmpimg/okta-roles.png)
 
 When you are done click **Setup SSO Configuration.**

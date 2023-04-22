@@ -24,16 +24,16 @@ Create a new service in PagerDuty
 
 Go to **Configuration → Services → New Service**
 
-[![](https://downloads.intercomcdn.com/i/o/286261036/1e7e7b4b72019fbf4aa0e89c/image.png)](https://downloads.intercomcdn.com/i/o/286261036/1e7e7b4b72019fbf4aa0e89c/image.png)
+![](/tmpimg/create-pd-service.png)
 
 From the new created service, **click on New Integration**
 
-[![](https://downloads.intercomcdn.com/i/o/286261112/d797218a1d1ea77e1e16492e/image.png)](https://downloads.intercomcdn.com/i/o/286261112/d797218a1d1ea77e1e16492e/image.png)
+![](/tmpimg/pd-add-int.png)
 
 This new integration will help in generating a new API key that can be added to the set security audit trail
 
-[![](https://downloads.intercomcdn.com/i/o/286261225/986cd6ded7fa8a1f5ea608c9/image.png)](https://downloads.intercomcdn.com/i/o/286261225/986cd6ded7fa8a1f5ea608c9/image.png)
+![](/tmpimg/pd-created.png)
 
 Login to nOps and go to logged-in name to show the **Settings** icon. On the Settings Page, click on **Integrations**. In the Integrations page, click PagerDuty Integration. Enter the PagerDuty Integration Key.
 
-[![](https://downloads.intercomcdn.com/i/o/288766685/d36a9349f70cebd9195891a4/image.png)](https://downloads.intercomcdn.com/i/o/288766685/d36a9349f70cebd9195891a4/image.png)
+![](/tmpimg/pd-int-enter-key.png)

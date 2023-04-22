@@ -1,15 +1,13 @@
 ---
 title: Workload API
-parent: Workload
-grand_parent: User Guides
-nav_order: 6
-layout: default
+keywords: reporting, assessment, compliance
+tags: [compliance, reporting]
+sidebar: mydoc_sidebar
+permalink: workload-api.html
+folder: UserGuides
 ---
 
-# Workloads API #
-
-
-## Workloads API Documentation ##
+# Workloads API Documentation #
 ===========================
 
 _API token generation_ Go to settings -> API Key menu item

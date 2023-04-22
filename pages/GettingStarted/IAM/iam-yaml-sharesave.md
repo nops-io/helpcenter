@@ -82,6 +82,7 @@ ShareSave: Auto-Pilot Risk-Free Commitment Management configuration is now compl
 **AWS Payer Account, YAML File for CUR, S3 bucket, and nOps Role/Policy**
 
 ### ShareSave YAML file ###
+
 ```yaml
 AWSTemplateFormatVersion: "2010-09-09"
 
@@ -213,6 +214,7 @@ Resources:
 
 ```
 ### Sharesave IAM Role ###
+
 **nOps ShareSave Accounts: IAM Policy nOps uses to Buy/Sell Reservations and Savings Plans**
 
 

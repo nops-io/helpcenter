@@ -89,7 +89,7 @@ Once, you have configured the webhook, come back to the **nOps > Organization Se
 
 When you click Launch Stack, you will be redirected to **AWS > CloudFormation > Stacks > Create stack.** All fields on the page will be prefilled.
 
-[![](https://downloads.intercomcdn.com/i/o/616522470/9ade4c6c957036f6944c8d70/2022-11-14_22-36-31.png)](https://downloads.intercomcdn.com/i/o/616522470/9ade4c6c957036f6944c8d70/2022-11-14_22-36-31.png)
+![](/tmpimg/eb-stackset.png)
 
 _You can follow the link highlighted above to see the CloudFormation template. To see the CloudFormation template right now, see [Scheduler CloudFormation Template](https://s3-us-west-2.amazonaws.com/nops-rules-lambda-sources/scheduler/scheduler.yml)._
 
@@ -100,7 +100,7 @@ Add Key in KMS
 
 Allow Scheduler Lambda Function to use encrypted EBS with KMS to get **automatic Stack creation for EventBridge with a single click.** To enable, go to **nOps > Organization Settings > Integrations > EventBridge** and click **Add key in KMS.** You will be redirected to the **Create stack** page in AWS:
 
-[![](https://downloads.intercomcdn.com/i/o/650352121/785de9611d5b1fdec7051238/2023-01-11_19-09-35.png)](https://downloads.intercomcdn.com/i/o/650352121/785de9611d5b1fdec7051238/2023-01-11_19-09-35.png)
+![](/tmpimg/eb-kms-stack.png)
 
 * * *
 

@@ -11,7 +11,7 @@ NAT Gateway, as necessary as it is to a cloud infrastructure, is also a major po
 
 nOps NAT Gateway Visibility solves this “Why is this so expensive” problem that customers face. It allows you to determine the source and destination of the NAT traffic. It also provides a breakdown of flow direction, cost, and data (in Gigabytes) of each network interface instance in a given time period:
 
-[![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/566003761/aa73714d89d7b80228f1c2de/PIZ2R8vpycjIx_Di7jWULPI2F39VT779y8Gk_225aZz82RlzgZ6HgxzRt4GCrDrdPdrmBg4bZD7C6DGefeGYV5D-WFJWzPlkergedy3QLyqOoq4_GR1O-7WVydN-gnwEP6vXwt09o1qboG-QYFeAzC8)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/566003761/aa73714d89d7b80228f1c2de/PIZ2R8vpycjIx_Di7jWULPI2F39VT779y8Gk_225aZz82RlzgZ6HgxzRt4GCrDrdPdrmBg4bZD7C6DGefeGYV5D-WFJWzPlkergedy3QLyqOoq4_GR1O-7WVydN-gnwEP6vXwt09o1qboG-QYFeAzC8)
+![](/tmpimg/resource-detail-cost-hist.png)
 
 Value of NAT Gateway Visibility
 ===============================
@@ -55,25 +55,25 @@ For such cases, the nOps NAT Gateway Visibility feature also provides you the ab
 Navigate the NAT Gateway Visibility in nOps
 ===========================================
 
-NAT Gateway Visibility features utilizes the VPC Flow log record published in the S3 bucket in [Parquet](https://www.databricks.com/glossary/what-is-parquet#:~:text=What%20is%20Parquet%3F,handle%20complex%20data%20in%20bulk.) format, see the [Getting Started](https://docs.google.com/document/d/14FxQgJzi2e7PJvjdqx_OmiqomCSku3y7bh9iKAsTKdY/edit#heading=h.2k8khuujpnau) section for more details.
+NAT Gateway Visibility features utilizes the VPC Flow log record published in the S3 bucket in [Parquet](https://www.databricks.com/glossary/what-is-parquet#:~:text=What%20is%20Parquet%3F,handle%20complex%20data%20in%20bulk.) format.  See [NAT Gateway Flowlogs](#getting-started-with-nat-gateway-visibility) for more information.
 
 In order to get the insights from NAT Gateway Visibility:
 
 1.  From the nOps **Dashboard,** go to **Cost > Cloud Resources Cost**.
     
-    [![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/566003765/a8d908e9380afc0180026672/OrqngC5ic2By7hVus91UfBVHM35x-yvpFgEuXY6oYMDk5L7X4JcpphXE1hvLNcrwQjmLoJ8uGVK3luyPBeiZ0h6zvNofM1dCMXp0vp4UKmusRcXXCOIVvreKR5haprVT02BEKbdFXBSrPvr7A_kixW8)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/566003765/a8d908e9380afc0180026672/OrqngC5ic2By7hVus91UfBVHM35x-yvpFgEuXY6oYMDk5L7X4JcpphXE1hvLNcrwQjmLoJ8uGVK3luyPBeiZ0h6zvNofM1dCMXp0vp4UKmusRcXXCOIVvreKR5haprVT02BEKbdFXBSrPvr7A_kixW8)
+    ![](/tmpimg/crc-menu.png)
     
 2.  In the **Cloud Resources Cost** panel, go to the **Resources** tab.
     
-    [![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/566003770/88f93f76c13e53dfd2368d21/5YowbwCQ6eWhXolRgGDB5kdfZHiTHSr4l-Wd_FSol2QHjY5ffaVbcdpR6vJ58Ojz5FsCjn7Azg7-dbiIvRMEwp0hiVaTNJX_l_URp7eCYPHjXYjBBsqKGe6SAzkPIgW133sUTh-58WnUNptZXyskKDE)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/566003770/88f93f76c13e53dfd2368d21/5YowbwCQ6eWhXolRgGDB5kdfZHiTHSr4l-Wd_FSol2QHjY5ffaVbcdpR6vJ58Ojz5FsCjn7Azg7-dbiIvRMEwp0hiVaTNJX_l_URp7eCYPHjXYjBBsqKGe6SAzkPIgW133sUTh-58WnUNptZXyskKDE)
+    ![](/tmpimg/crc-resources-menu.png)
     
 3.  From the resource list, click on a NAT Gateway resource to open the **Resource Details** panel.
     
-    [![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/566003775/926f1f410fadffcb14c1b7cf/73aBfy8rNJ9ZPQZerVY-lO7NrdLn4XUVUdd86ScC-k72EgYpm2Dy0pGUDNN4vCk7QHwrZ8K0O4Zv_GnmTCrmxsZvSPa99cdq9kX_OntN_zMSUSKhMiUdIjp5id6agdRMzI82TUx_ECAXM8MfuyreDrM)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/566003775/926f1f410fadffcb14c1b7cf/73aBfy8rNJ9ZPQZerVY-lO7NrdLn4XUVUdd86ScC-k72EgYpm2Dy0pGUDNN4vCk7QHwrZ8K0O4Zv_GnmTCrmxsZvSPa99cdq9kX_OntN_zMSUSKhMiUdIjp5id6agdRMzI82TUx_ECAXM8MfuyreDrM)
+    ![](/tmpimg/top-spend-resources.png)
     
 4.  In the Resource Details panel, switch to the Cost History to see the details of NAT Gateway Visibility.
     
-    [![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/566003781/b5b0cb1cfc427939f132ac79/6XICYnZQsDaihJBgLxqJ1mjRU8NTMt1jkq9ux7ZnOfEyQtP68HWQrDjJazIlCgG6s0mWu8BvyyEEL05au0IyB9NdMoEXokP_tl8DHlqoZEfbu4Y_aje-jxUG7Zlf9HP14bpUtHtixfM3jkrnPXgRqY8)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/566003781/b5b0cb1cfc427939f132ac79/6XICYnZQsDaihJBgLxqJ1mjRU8NTMt1jkq9ux7ZnOfEyQtP68HWQrDjJazIlCgG6s0mWu8BvyyEEL05au0IyB9NdMoEXokP_tl8DHlqoZEfbu4Y_aje-jxUG7Zlf9HP14bpUtHtixfM3jkrnPXgRqY8)
+    ![](/tmpimg/nat-resource-costs.png)
     
 
 Resource Spend History
@@ -83,11 +83,11 @@ You can learn about your traffic trends with the help of Resource Spend History 
 
 You can also filter the Resource Spend History based on Usage Types, Operations, Top X, and a timeframe:
 
-[![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/566003786/f7016c9763614b38d71074da/o2WSWYbCjyDIquCXajpOMak2uO3eD7uIDVXOqc5IK0xEa84ZDlwV1DyMN1166gZaDjIOqnxlRQna1-XfFznTaOYpmIsPsZa7qNK13vrx0PouI0RoppJ16OHkFJE0MJBNcNLmAeDmhrwYdogs6Em9n1o)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/566003786/f7016c9763614b38d71074da/o2WSWYbCjyDIquCXajpOMak2uO3eD7uIDVXOqc5IK0xEa84ZDlwV1DyMN1166gZaDjIOqnxlRQna1-XfFznTaOYpmIsPsZa7qNK13vrx0PouI0RoppJ16OHkFJE0MJBNcNLmAeDmhrwYdogs6Em9n1o)
+![](/tmpimg/spend-operations.png)
 
 You can also unchecking the resources for which you do not wish to see the history:
 
-[![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/566003790/571db998624bbe93da4f9df4/9svNshf2hcusV7HAhLnbl72y4D0guyfYJclLkCcfT3p6VSKum43lZIrRYYT-BMpiD_GRT4m5oeQL7-tlo0PyHc71_Rbh2nspQU7BmsuFVeig1hiwsWtJIEFBAQx0SlX-YOnoqMFtf0DYu9_g530f4w8)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/566003790/571db998624bbe93da4f9df4/9svNshf2hcusV7HAhLnbl72y4D0guyfYJclLkCcfT3p6VSKum43lZIrRYYT-BMpiD_GRT4m5oeQL7-tlo0PyHc71_Rbh2nspQU7BmsuFVeig1hiwsWtJIEFBAQx0SlX-YOnoqMFtf0DYu9_g530f4w8)
+![](/tmpimg/spend-deselect.png)
 
 Network Interface Flow Logs
 ---------------------------
@@ -136,8 +136,8 @@ nOps requires the following flow log configuration:
     * pkt-srcaddr
         
     * srcaddr
-        
-    
+
+```   
 
 module "s3\_nops\_prod\_vpc\_flow\_logs\_bucket" {  
   source = "./logging-s3-bucket"  
@@ -160,6 +160,7 @@ resource "aws\_flow\_log" "default" {
         },  
       )  
 }
+```
 
 Troubleshooting Tips
 ====================

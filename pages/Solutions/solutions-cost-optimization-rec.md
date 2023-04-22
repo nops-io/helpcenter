@@ -13,7 +13,7 @@ In the nOps platform, you can find cost optimization recommendations on the:
 
 * **Rules > Cost** tab:
     
-    [![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/573878597/82bef4558ad154fcec27cbe6/PjQK2CZwnMSLgXIqUm4mAUIh_14ulOJQDrO4_bIRELGwhWQhr2ARaceJp9icfJbCY3xpQ-oUpkXKMYNaVcsct7t_PofzEaeNM041qVN0AO0CMaRwQjrm1MBHgWUXpm88gYFKImoAER4-mlBIUu5-bh4)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/573878597/82bef4558ad154fcec27cbe6/PjQK2CZwnMSLgXIqUm4mAUIh_14ulOJQDrO4_bIRELGwhWQhr2ARaceJp9icfJbCY3xpQ-oUpkXKMYNaVcsct7t_PofzEaeNM041qVN0AO0CMaRwQjrm1MBHgWUXpm88gYFKImoAER4-mlBIUu5-bh4)
+     ![](/tmpimg/nops-rules.png)
     
     * Unused
         
@@ -28,7 +28,7 @@ In the nOps platform, you can find cost optimization recommendations on the:
     
 * **Cost > Resource Rightsizing** page:
     
-    [![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/573878606/e4745290dc607d52748dd506/_3xcP_0vXESh9Wze3LOX8_H2EU55-H2XYKDIALafJgGomM1ocXz1KTSCeUtgngzIZm9OEPFMnNVlAgTdDWRRH_rGR5hmcPVcR96_PGxf5tWvuRrpxrf1LweCsSkM75oEQPOCZ7cKgjcaDnfsXuRcGVk)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/573878606/e4745290dc607d52748dd506/_3xcP_0vXESh9Wze3LOX8_H2EU55-H2XYKDIALafJgGomM1ocXz1KTSCeUtgngzIZm9OEPFMnNVlAgTdDWRRH_rGR5hmcPVcR96_PGxf5tWvuRrpxrf1LweCsSkM75oEQPOCZ7cKgjcaDnfsXuRcGVk)
+     ![](/tmpimg/righsizingmenu.png
     
     * EC2 Rightsizing
         
@@ -43,7 +43,7 @@ In the nOps platform, you can find cost optimization recommendations on the:
 
 The cost optimization recommendations in the **Rules > Cost** tab provides cost optimization recommendations with details of the appropriate step you can take.
 
-[![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/573878613/a7c7c84ff78f6a9f7f6ec0e9/F0476ZQGgoU0DlymAglQarc6rVkXBuOS0VAcNL0j-Y0dgjbDFU1l0fClGafRtizszLni6pM9hA6VGmJawPfSy7XKM7BThev0f0MEBIDsqUxm-BawLGi9mADDfYKYUZ6G8cD3yDyPAW5MixKWtYTxP-8)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/573878613/a7c7c84ff78f6a9f7f6ec0e9/F0476ZQGgoU0DlymAglQarc6rVkXBuOS0VAcNL0j-Y0dgjbDFU1l0fClGafRtizszLni6pM9hA6VGmJawPfSy7XKM7BThev0f0MEBIDsqUxm-BawLGi9mADDfYKYUZ6G8cD3yDyPAW5MixKWtYTxP-8)
+ ![](/tmpimg/violation-list.png)
 
 Following is a list of cost optimization recommendations that nOps provides in the **Cost** page. The list is not exhaustive, nOps is constantly adding more recommendations that will help you reduce costs:
 
@@ -135,7 +135,7 @@ Rightsizing is one of the best methods to bring cloud costs under control. nOps 
 
 Each service has its own dedicated tab with recommendations:
 
-[![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/573878620/17b544787ea640abc62197c1/yx2YbipkC9aE6oXr6UnQK6LPPqzwGKL8wHNCJqxPoF8ue73UYMg4hBPTGOyearswrtC4FZaScMjcO6G1FYRGIGGBc5xQU8s-fn2NI_Wq8asNVdYiqKT3d4f3JyYAHOYlSHyMZFJKqZ9woOOT3eKu32M)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/573878620/17b544787ea640abc62197c1/yx2YbipkC9aE6oXr6UnQK6LPPqzwGKL8wHNCJqxPoF8ue73UYMg4hBPTGOyearswrtC4FZaScMjcO6G1FYRGIGGBc5xQU8s-fn2NI_Wq8asNVdYiqKT3d4f3JyYAHOYlSHyMZFJKqZ9woOOT3eKu32M)
+ ![](/tmpimg/ec2-rightsize-list.png)
 
 To reduce costs by rightsizing, nOps allows you to analyze instance performance, usage patterns and needs continuously. nOps then provides cost optimization recommendations to turn off idle instances and to rightsize instances that are either poorly matched to the workloads or over-provisioned.
 

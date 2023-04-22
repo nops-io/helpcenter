@@ -1,9 +1,10 @@
 ---
 title: Configure Weekly Reports
-parent: Reports
-grand_parent: User Guides
-nav_order: 4
-layout: default
+keywords: reporting
+tags: [reporting]
+sidebar: mydoc_sidebar
+permalink: weekly-reports.html
+folder: UserGuides
 ---
 
 {: .no_toc }

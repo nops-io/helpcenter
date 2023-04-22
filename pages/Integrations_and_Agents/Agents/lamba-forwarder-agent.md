@@ -49,11 +49,11 @@ In the **Create stack** page:
     
 2.  Click Create stack, and wait for the creation to complete:
     
-    [![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/575699678/0bc2276c280f264cd01547d1/B3Qxh0kZOyU7np8h_3qmu90OfXXGuUPzBj-8KMCrh6VKA9T5qzIX49Fic6YEnzoi_5_d4o-_nXdVL5WzdNCGiSFMJ8mHkl7NFBlVV6Avjg1Dv0lOacEbpvTfWC0ZNEq8TpLV1D-Mp6cEsNN6XcehICjL0tSoa7Oc49WRekki0waDEs_Rf16tAawF1Q)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/575699678/0bc2276c280f264cd01547d1/B3Qxh0kZOyU7np8h_3qmu90OfXXGuUPzBj-8KMCrh6VKA9T5qzIX49Fic6YEnzoi_5_d4o-_nXdVL5WzdNCGiSFMJ8mHkl7NFBlVV6Avjg1Dv0lOacEbpvTfWC0ZNEq8TpLV1D-Mp6cEsNN6XcehICjL0tSoa7Oc49WRekki0waDEs_Rf16tAawF1Q)
+    ![](/tmpimg/forwarder-stack.png)
     
 3.  You can find the installed forwarder Lambda function under the stack's "Resources" tab with logical ID **rLambdaForwarder**:
     
-    [![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/575699686/432539f8e0737bd4c7c489c3/iHY-O6x5bHTkvjrUhrPJOfQs8LwgI9ZPhRhi9uo78Pc_ZUXe8QLNvWp-ldhfqcgjeC8xBNHUxoUneyQstH4GjdTvH2BV5IOy8oX7O1eRR_WBRonif522kh2xOeY99ur7W72oC0HuyP79uZ6RmTP3y3ujN4SXf-sZyrnLBHc-W9xzjRv04d5DenI1CA)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/575699686/432539f8e0737bd4c7c489c3/iHY-O6x5bHTkvjrUhrPJOfQs8LwgI9ZPhRhi9uo78Pc_ZUXe8QLNvWp-ldhfqcgjeC8xBNHUxoUneyQstH4GjdTvH2BV5IOy8oX7O1eRR_WBRonif522kh2xOeY99ur7W72oC0HuyP79uZ6RmTP3y3ujN4SXf-sZyrnLBHc-W9xzjRv04d5DenI1CA)
+    [![](/tmpimg/forwarder-stack-details.png)
     
 4.  If you use a KMS-encrypted API key, provide the access permission for the Lambda role for KMS Key
     

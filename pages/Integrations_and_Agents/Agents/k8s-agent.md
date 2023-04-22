@@ -112,7 +112,7 @@ These are the variables required to create the K8s agent Helm Chart:
     
 * `APP_NOPS_K8S_AGENT_CLUSTER_ID` — Needs to match your cluster ID.
     
-* `APP_NOPS_K8S_COLLECTOR_API_KEY` — See, [nOps Developer API](https://docs.nops.io/en/articles/5955764-getting-started-with-the-nops-developer-api) to learn how to get your API key.
+* `APP_NOPS_K8S_COLLECTOR_API_KEY` — See, [nOps Developer API](developer-getting-started.html) to learn how to get your API key.
     
 * `APP_NOPS_K8S_COLLECTOR_AWS_ACCOUNT_NUMBER` \- The 12-digit unique account number of the AWS account, which is configured within nOps.
     
@@ -131,6 +131,7 @@ Prior knowledge of K8s Helm is necessary to understand the commands and deploy t
 
 Following is the Helm command that will start the Helm Chart and deploy the K8s agent on the Kubernetes cluster:
 
+```
 \# Upgrade chart.  
 helm \  
   upgrade -i nops-k8s-agent ./charts/nops-k8s-agent \  
@@ -140,6 +141,7 @@ helm \
   --set image.tag=deploy \  
   --set env\_variables.APP\_ENV=live \  
   --wait --timeout=300s
+```
 
 If instead of fetching the value from the Parameter Store SSM you decided to change add the value in code, then omit the `-f /tmp/values.yaml \` from the command.
 

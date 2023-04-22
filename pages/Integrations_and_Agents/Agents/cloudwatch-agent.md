@@ -40,27 +40,28 @@ nOps checks the average memory utilization for an Amazon EC2 instance over a two
     
 5.  [Log in to the AWS IAM console](https://console.aws.amazon.com/iam) and select the “Roles” menu item. Click the “Create role” button.  
     
-    [![](https://downloads.intercomcdn.com/i/o/508477549/82ba9779a0ab648e61b57825/image.png)](https://downloads.intercomcdn.com/i/o/508477549/82ba9779a0ab648e61b57825/image.png)
+    ![](/tmpimg/creat-role.png)
     
 6.  On the “Select type of trusted entity” page, select “EC2” as the service to be associated with the new role. Click the “Next: Permissions” button to proceed.
     
-    [![](https://downloads.intercomcdn.com/i/o/508475263/72dd946effc92bbf4c73ffa1/image.png)](https://downloads.intercomcdn.com/i/o/508475263/72dd946effc92bbf4c73ffa1/image.png)
+    ![](/tmpimg/choose-ec2.png)
     
 7.  On the “Attach permissions policies” page, select the “CloudWatchAgentServerPolicy”. Click “Next: Tags” to proceed.
     
-    [![](https://downloads.intercomcdn.com/i/o/305154435/0132d0e2c484490bc8f70ee3/image.png?expires=1619793731&signature=5d982f8b76173b20eb4ccc29f6d1a598a9faf6c439d5612a525222caafcfffbf)](https://downloads.intercomcdn.com/i/o/305154435/0132d0e2c484490bc8f70ee3/image.png?expires=1619793731&signature=5d982f8b76173b20eb4ccc29f6d1a598a9faf6c439d5612a525222caafcfffbf)
+    ![](/tmpimg/cwagent.png)
     
 8.  On the “Add tags” page, add tags if required (optional). Click “Next: Review” to proceed.
     
 9.  On the “Review” page, enter a name for the new role. Click “Create role” to proceed and create the new role.
     
-    [![](https://downloads.intercomcdn.com/i/o/508474711/d2b1d1a0fb4f9ee8c0bfe222/image.png)](https://downloads.intercomcdn.com/i/o/508474711/d2b1d1a0fb4f9ee8c0bfe222/image.png)
-    
+    ![](/tmpimg/rolename.png)
+
+
 10. Once the role is created, click your username in the top right corner of the navigation bar and select “My Security Credentials” from the drop-down menu.
     
 11. On the “My security credentials” page, click the “Create access key” button.
     
-    [![](https://downloads.intercomcdn.com/i/o/305155071/a42a346eb6855c918b900a9c/image.png?expires=1619793731&signature=a79de53bbe9b805e2d53960be7e78a48c64b911585313032cf416d0d369511c5)](https://downloads.intercomcdn.com/i/o/305155071/a42a346eb6855c918b900a9c/image.png?expires=1619793731&signature=a79de53bbe9b805e2d53960be7e78a48c64b911585313032cf416d0d369511c5)
+    ![](/tmpimg/creat-access-key.png)
     
 12. Note the new AWS access key ID and corresponding secret access key. You may want to save this to a file.  
     
@@ -85,7 +86,7 @@ nOps checks the average memory utilization for an Amazon EC2 instance over a two
     
     sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -m ec2 -a status
     
-    [![](https://downloads.intercomcdn.com/i/o/305156957/164c695764377b799f5f97d4/image.png?expires=1619793731&signature=abd898a02eeb8e2fdf49d59260e7ce8d714718226f0a18af1f3169bb8b679640)](https://downloads.intercomcdn.com/i/o/305156957/164c695764377b799f5f97d4/image.png?expires=1619793731&signature=abd898a02eeb8e2fdf49d59260e7ce8d714718226f0a18af1f3169bb8b679640)
+    ![](/tmpimg/agentrunning.png)
     
 
 The steps described above will also configure the Amazon CloudWatch agent to automatically start on server reboot.
@@ -134,8 +135,8 @@ To view metrics and usage
     
 7.  You can change the CPU Utilization drop-down to see other options including **Memory Used**.
     
-    [![](https://downloads.intercomcdn.com/i/o/508512921/f5362fd5120fe77977ae2326/image.png)](https://downloads.intercomcdn.com/i/o/508512921/f5362fd5120fe77977ae2326/image.png)
+    ![](/tmpimg/change-metrics.png)
     
 8.  To see information about this resource on AWS, click the **View Resource on AWS Console** button. You will be required to log into the AWS console to do this.
     
-    [![](https://downloads.intercomcdn.com/i/o/508514272/2f9b3d4fbc26d54df93831c7/image.png)](https://downloads.intercomcdn.com/i/o/508514272/2f9b3d4fbc26d54df93831c7/image.png)
+    ![](/tmpimg/view-on-console.png)

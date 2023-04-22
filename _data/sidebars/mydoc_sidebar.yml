@@ -142,6 +142,14 @@ entries:
           url: /webhook-integration.html
           output: web
 
+  - title: ShareSave
+    output: web
+    folderitems:
+
+    - title: Savings on Auto-Pilot
+      url: /sharesave-overview.html
+      output: web
+
   - title: User Guides
     output: web
     folderitems:
@@ -207,6 +215,130 @@ entries:
           url: /ftr-question-descriptions.html
           output: web  
 
+      - title: MAP
+        output: web
+        subfolderitems:
+
+        - title: Automated Taging for AWS MAP
+          url: /automated-tagging-for-aws-map.html
+          output: web
+
+        - title: Backfill a CUR for AWS MAP
+          url: /backfilling-a-cur-file.html
+          output: web
+
+      - title: Reports
+        output: web
+        subfolderitems:
+
+        - title: Weekly Reports
+          url: /weekly-reports.html
+          output: web
+
+      - title: Rules
+        output: web
+        subfolderitems:
+
+        - title: Custom Rules
+          url: /rules-custom.html
+          output: web
+
+        - title: View Underutilized EBS Volumes
+          url: /rules-view-ebs.html
+          output: web
+
+        - title: View Underutlized Network Resources
+          url: /rules-view-underutilized-network-resources.html
+          output: web
+
+        - title: View IAM Violations
+          url: /rules-view-iam-violations.html
+          output: web
+
+      - title: Security
+        output: web
+        subfolderitems:
+
+        - title: View Security Violations
+          url: /security-view-violations.html
+          output: web
+
+        - title: Check Multi-Factor Authentication
+          url: /security-mfa-activated.html
+          output: web
+
+      - title: Settings
+        output: web
+        subfolderitems:
+
+        - title: Adding Users to nOps
+          url: /settings-adding-users-to-nops.html
+          output: web
+
+        - title: Change Your Password
+          url: /settings-change-password.html
+          output: web
+
+        - title: Customize Settings
+          url: /settings-customize.html
+          output: web      
+
+        - title: Data Purge
+          url: /settings-data-purge.html
+          output: web
+
+        - title: Disable Notifications
+          url: /settings-disable-notifications.html
+          output: web
+
+        - title: Notifications Center
+          url: /settings-notification-center.html
+          output: web
+
+      - title: Well Architected Framework
+        output: web
+        subfolderitems:
+
+        - title: Export a WAFR Report
+          url: /wafr-export.html
+          output: web
+
+        - title: WAFR Report
+          url: /wafr-report.html
+          output: web
+
+        - title: WAFR Review
+          url: /wafr-review.html
+          output: web
+
+      - title: Workload
+        output: web
+        subfolderitems:
+
+        - title: Add Resources to Workloads
+          url: /workload-add-new-resources.html
+          output: web
+
+        - title: Workload API
+          url: /workload-api.html
+          output: web
+
+        - title: Attach Documents to Workloads
+          url: /workload-attach-documents.html
+          output: web
+
+        - title: Create Workloads
+          url: /workload-create.html
+          output: web
+
+        - title: Evaluate Risk for a Workload
+          url: /workload-evaluate-risk.html
+          output: web
+
+        - title: View and Manage Workloads
+          url: /workload-view-and-manage.html
+          output: web          
+
   - title: Solutions
     output: web
     folderitems:
@@ -223,8 +355,8 @@ entries:
       url: /solutions-evaluating-changeset-costs.html
       output: web
 
-    - title: Using nSwitch to Reduce Costs
-      url: /solutions-using-nswitch-to-reduce-costs.html
+    - title: Using EventBridge with nSwitch to Reduce Costs
+      url: /solutions-using-eventbridge-with-nswitch-to-reduce-costs.html
       output: web
 
   - title: Developer
@@ -235,12 +367,20 @@ entries:
       url: /developer-getting-started.html
       output: web
 
-    - title: nOps API List
-      url: /developer-api-list.html
-      output: web
-
     - title: nSwitch Slackbot "How To" Guide
       url: /developer-nswitch-slackbot.html
+      output: web
+
+    - title: nOps Application API Swagger File
+      external_url: https://app.nops.io/swagger/
+      output: web
+
+    - title: Notification APIs
+      external_url: https://app.nops.io/svc/notifications/api/schema/swagger-ui/#/
+      output: web
+      
+    - title: Recommendations API Swagger
+      external_url: https://app.nops.io/svc/k8s_cost/docs
       output: web
 
 # Copyright 2023 nOps

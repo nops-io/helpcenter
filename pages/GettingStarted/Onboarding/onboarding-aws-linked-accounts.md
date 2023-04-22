@@ -14,7 +14,7 @@ There are three methods of onboarding a linked account:
 1.  [During automatic setup](#during-automatic-setup)
 2.  [Via your nOps Organization Account](#nops-organization-settings)
 3.  [With Terraform Multi Account Registration (IaaC)](#terraform-multi-account-registration-iaac)
-    
+
 
 All of these onboarding methods give the linked accounts IAM permissions that allow nOps to read metadata, CloudTrail trails, Cloudwatch data, and everything else about the linked accounts. It allows nOps to offer its monitoring and recommendations features for security, operations, reliability, and performance.
 

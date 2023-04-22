@@ -1,9 +1,10 @@
 ---
 title: Backfilling a CUR file for MAP
-parent: MAP
-grand_parent: User Guides
-nav_order: 3
-layout: default
+keywords: reporting, integrations
+tags: [compliance, reporting]
+sidebar: mydoc_sidebar
+permalink: backfilling-a-cur-file.html
+folder: UserGuides
 ---
 
 {: .no_toc }

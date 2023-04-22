@@ -119,9 +119,3 @@ API requests should use the following format.
 `<enter_REST-URI>` is the location of the endpoint for example: /c/admin/projectaws/
 
 `<Client_key>` is the API key you generated within nOps in the **Create a public/private key pair** procedure earlier in this document.
-
-See also:
-
-* nOps Core API’s: [https://app.nops.io/swagger/](https://app.nops.io/swagger/)
-* nOps nSwitch Scheduler API’s: [https://app.nops.io/svc/notifications/api/schema/swagger-ui/#/](https://app.nops.io/svc/notifications/api/schema/swagger-ui/#/)
-* nOps nSwitch Recommendations Swagger: [https://app.nops.io/svc/k8s_cost/docs](https://app.nops.io/svc/k8s_cost/docs)

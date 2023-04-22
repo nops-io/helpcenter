@@ -48,8 +48,7 @@ You will complete the following steps:
     
     click the icon.
     
-    [![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/330595220/e4877b4582d9b97b5f63b33e/W7vttCNY0E5tHKOpHcgza_cg4CJDF2SaZI1wAXySD7U9ti382utuj9Exv33LhXDtcHEkybaNjuq1Vbzmp_jzT-3tlQMLp0pEvW7tsx4Y2qXC5KmOR6tr7ROB726Zk76ND9D3cPr4)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/330595220/e4877b4582d9b97b5f63b33e/W7vttCNY0E5tHKOpHcgza_cg4CJDF2SaZI1wAXySD7U9ti382utuj9Exv33LhXDtcHEkybaNjuq1Vbzmp_jzT-3tlQMLp0pEvW7tsx4Y2qXC5KmOR6tr7ROB726Zk76ND9D3cPr4)
-    
+    ![](/tmpimg/ol-find-app)
 4.  At the **Add Connector** dialog, you can change the **Display Name**, add an icon, and enter a description. Ensure that the **Visible in portal** toggle is turned **on**.
     
 5.  Click **Save**.

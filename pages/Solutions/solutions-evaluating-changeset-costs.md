@@ -61,9 +61,9 @@ Check Cost Impact of Cloud-Server Configuration Change
 
 With nOps **_Github Actions_** you can see the cost impact of any change that you make to your server configuration. You will see the cost impact in your local environment before the changes are pushed to the repository. The nOps Github Actions, will show you a table similar to the one below with the help of pre-commit hooks:
 
-|     |     |     |     |
-| --- | --- | --- | --- |
+
 | **Project** | **Previous** | **New** | **Diff** |
+| --- | --- | --- | --- |
 | terraform_project1 | $167.04 | $83.38 | $83 |
 | terraform_project3 | -   | $24.91 | $24.91 |
 | terraform_project4 | $83.38 | $83.38 | $0.0 |
@@ -83,11 +83,11 @@ The nOps SDK is public, you can pull it down and integrate it in your own workfl
 
 What the nOps CLI does is that whenever you make terraform code changes and create a pull request, the CLI uses pre-commit hooks and GitHub Actions to get the estimated cost impact for your IAC projects impacted by the pull request code changes:
 
-[![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/561016947/a1103bce03f44d567b0ffef2/KcqQbesJ_JVHAe6sQha_0eg4OFgsNnWiMymyitSDN6vXh4Hj3vkNyabg_zLiQqG8JuKoRQux9GrMqXwKaxgIet9T0kZFvu0HTasCU_oIniGkEVjBf3LPiSW6JOadDNLNGx5xMrIIBlX4JL2BYkJvTlw)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/561016947/a1103bce03f44d567b0ffef2/KcqQbesJ_JVHAe6sQha_0eg4OFgsNnWiMymyitSDN6vXh4Hj3vkNyabg_zLiQqG8JuKoRQux9GrMqXwKaxgIet9T0kZFvu0HTasCU_oIniGkEVjBf3LPiSW6JOadDNLNGx5xMrIIBlX4JL2BYkJvTlw)
+ ![](/tmpimg/cost-impact-changeset.png)
 
 When you create a pull request, the GitHub Actions show the cost impact of the changeset in the form of a cost difference table:
 
-[![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/561016957/c4be2dfba9a9b9d6dab6781f/bJHh5jcanHGpv94TSkzsboEqslfAXS04Sb5yMIiFtLKOKa8JEU55kQGDuQ1Qyuhol7yM0Vkb4WX4uvSdcqs4VzkJMdBkAvCVkubGWw7luaheuBV1F0V_Qe5m1jHRm53SDug7_6FXV5sQUe71hHuMt2w)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/561016957/c4be2dfba9a9b9d6dab6781f/bJHh5jcanHGpv94TSkzsboEqslfAXS04Sb5yMIiFtLKOKa8JEU55kQGDuQ1Qyuhol7yM0Vkb4WX4uvSdcqs4VzkJMdBkAvCVkubGWw7luaheuBV1F0V_Qe5m1jHRm53SDug7_6FXV5sQUe71hHuMt2w)
+ ![](/tmpimg/changeset-est-cost.png)
 
 It wasn’t nOps who built the nOps CLI, it was built by the community, and it is the open-source community that maintains it.
 
@@ -199,84 +199,86 @@ Manual Retrieval of Cost Impact with the nOps SDK
 
 The nOps SDK consists of several modules, but this Solution Doc — evaluating the cost impact of a Terraform changeset — focuses on the Pricing module and the Cloud Infrastructure module.
 
-[![](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/561016969/a43746cc4769c03cc1220c8f/bPPK4v2lF3pag0gH4o2u4Aw_ZHhLbyFe5fgARlAYgtAyLpxKINSxH7-Cag0DWzFhWDOhdehZumqkXvoVyvFKt4fQmeECmjSmVkiwjzEE130iNKzXS5NFi0FOGp-zsLfKzQgbRZw0NNrOATZbZOK41Bw)](https://nops-b92747f563e0.intercom-attachments-7.com/i/o/561016969/a43746cc4769c03cc1220c8f/bPPK4v2lF3pag0gH4o2u4Aw_ZHhLbyFe5fgARlAYgtAyLpxKINSxH7-Cag0DWzFhWDOhdehZumqkXvoVyvFKt4fQmeECmjSmVkiwjzEE130iNKzXS5NFi0FOGp-zsLfKzQgbRZw0NNrOATZbZOK41Bw)
+ ![](/tmpimg/changeset-cost-manual.png)
 
 These two modules collectively form the basis of evaluating the cost impact of a changeset. Here is an example Python code snippet that show how these two modules work together to get the cost changes:
 
->>\> from nops_sdk.pricing import CloudCost
+```python
+>>> from nops_sdk.pricing import CloudCost
 
->>\> from nops\_sdk.cloud\_infrastructure.enums import AWSRegion
+>>> from nops_sdk.cloud_infrastructure.enums import AWSRegion
 
->>\> from nops\_sdk.cloud\_infrastructure.cloud_operation import Periodicity
+>>> from nops_sdk.cloud_infrastructure.cloud_operation import Periodicity
 
->>\> spec = \[
+>>> spec = [
 
-```
-{
+        {
 
-"new\_data": {"instance\_type": "t2.micro"},
+            "new_data": {"instance_type": "t2.micro"},
 
-"old_data": None,
+            "old_data": None,
 
-"operation_type": "create",
+            "operation_type": "create",
 
-"resource_type": "ec2",
+            "resource_type": "ec2",
 
-"ami": "ami-0269f532"
+            "ami": "ami-0269f532"
 
-},
+        },
 
-{
+        {
 
-"new\_data": {"instance\_type": "t2.nano", "ami": "ami-00bb6f60"},
+            "new_data": {"instance_type": "t2.nano", "ami": "ami-00bb6f60"},
 
-"old\_data": {"instance\_type": "t2.micro", "ami": "ami-0269f532"},
+            "old_data": {"instance_type": "t2.micro", "ami": "ami-0269f532"},
 
-"operation_type": "update",
+            "operation_type": "update",
 
-"resource_type": "ec2"
+            "resource_type": "ec2"
 
-},
+        },
 
-{
+        {
 
-"new_data": None,
+            "new_data": None,
 
-"old_data": {
+            "old_data": {
 
-"instance_class": "db.t2.micro",
+                "instance_class": "db.t2.micro",
 
-"engine": "oracle-ee",
+                "engine": "oracle-ee",
 
-"license_model": "bring-your-own-license",
+                "license_model": "bring-your-own-license",
 
-"multi_az": True
+                "multi_az": True
 
-},
+            },
 
-"operation_type": "delete",
+            "operation_type": "delete",
 
-"resource_type": "rds",
+            "resource_type": "rds",
 
-},
+        },
 
-\]
-```
->>\> cloud\_cost = CloudCost(aws\_region=AWSRegion('us-west-2'), spec=spec)
+    ]
 
->>\> cloud\_cost.load\_prices()
+>>> cloud_cost = CloudCost(aws_region=AWSRegion('us-west-2'), spec=spec)
 
-\*\*\*\*After you load the prices, you can compute and output prices for any supported \`Periodicity\` at no significant cost.\*\*\*\*
+>>> cloud_cost.load_prices()
 
->>\> cloud\_cost.compute\_cost_effects(period=Periodicity('monthly'))
+****After you load the prices, you can compute and output prices for any supported `Periodicity` at no significant cost.****
 
->>\> cloud\_cost.output\_report()
+>>> cloud_cost.compute_cost_effects(period=Periodicity('monthly'))
+
+>>> cloud_cost.output_report()
 
 Create t2.micro EC2 instance with a monthly cost impact of 8.35
 
 Delete db.t2.micro RDS instance with a monthly cost impact of -9.79
 
-Update t2.micro EC2 instance to t2.nano EC2 instance with a monthly cost impact of -4.18
+Update t2.micro EC2 instance to t2.nano EC2 instance with a monthly cost impact of -4.18 
+
+```
 
 The example above is how you can access the nOps SDK programmatically.
 
@@ -316,107 +318,120 @@ The AWS product families that nOps Pricing module supports are:
 
 This snippet is an example of the EC2 specs in Python for calling the nOps SDK:
 
+```python
+
 {
 
-"new\_data": {"instance\_type": "t2.micro"},
+     "new_data": {"instance_type": "t2.micro"},
 
-"old_data": None,
+     "old_data": None,
 
-"operation_type": "create",
+     "operation_type": "create",
 
-"resource_type": "ec2",
+     "resource_type": "ec2",
 
-"ami": "ami-0269f532"
+     "ami": "ami-0269f532"
 
 }
+
+```
 
 **RDS**
 
 This snippet is an example of the RDS specs in Python for calling the nOps SDK:
 
+```python
 {
 
-"new_data": None,
+     "new_data": None,
 
-"old_data": {
+     "old_data": {
 
-"instance_class": "db.t2.micro",
+         "instance_class": "db.t2.micro",
 
-"engine": "oracle-ee",
+         "engine": "oracle-ee",
 
-"license_model": "bring-your-own-license",
+         "license_model": "bring-your-own-license",
 
-"multi_az": True
+         "multi_az": True
 
-},
+     },
 
-"operation_type": "delete",
+     "operation_type": "delete",
 
-"resource_type": "rds",
+     "resource_type": "rds",
 
 }
+```
 
 **EKS Cluster**
 
 This snippet is an example of the EKS Cluster specs in Python for calling the nOps SDK:
 
+```python
+
 {
 
-'id': None,
+     'id': None,
 
-'resource\_type': 'aws\_eks_cluster',
+     'resource_type': 'aws_eks_cluster',
 
-'operation_type': 'create',
+     'operation_type': 'create',
 
-'old_data': None,
+     'old_data': None,
 
-'new_data': {
+     'new_data': {
 
-'name': 'devopsthehardway-cluster',
+        'name': 'devopsthehardway-cluster',
+
+     }
 
 }
 
-}
+```
 
 **EKS Node Group**
 
 This snippet is an example of the EKS Node Group specs in Python for calling the nOps SDK:
 
+```python
 {
 
-'id': None,
+     'id': None,
 
-'resource\_type': 'aws\_eks\_node\_group',
+     'resource_type': 'aws_eks_node_group',
 
-'operation_type': 'create',
+     'operation_type': 'create',
 
-'old_data': None,
+     'old_data': None,
 
-'new_data': {
+     'new_data': {
 
-'cluster_name': 'devopsthehardway-cluster',
+         'cluster_name': 'devopsthehardway-cluster',
 
-'instance_types': \['t3.xlarge'\],
+         'instance_types': ['t3.xlarge'],
 
-'node\_group\_name': 'devopsthehardway-workernodes',
+         'node_group_name': 'devopsthehardway-workernodes',
 
-'scaling_config': \[
+         'scaling_config': [
 
-{
+             {
 
-'desired_size': 1,
+             'desired_size': 1,
 
-'max_size': 1,
+             'max_size': 1,
 
-'min_size': 1
+             'min_size': 1
+
+             }
+
+         ],
+
+     }
 
 }
 
-\],
-
-}
-
-}
+```
 
 To access the nOps programmatically via the nOps SDK, all you need to do is [Install nOps SDK](https://docs.google.com/document/d/1-LfpAaTxfxj6J6V7LJpJDipJa4v60N-rAHj2WOTljSc/edit#heading=h.la95x0cpj6sp).
 
@@ -431,12 +446,12 @@ Before you can use the nOps SDK for evaluating the cost impact of a changeset, y
 
 You can do this by using one of the following methods:
 
-* CloudFormation ([Adding an AWS account to nOps with Automatic Setup](https://docs.nops.io/en/articles/4779288-adding-an-aws-account-to-nops-with-automatic-setup))
+* CloudFormation ([Adding an AWS account to nOps with Automatic Setup](onboarding-aws-with-automatic-setup.html))
     
-* Manually setting up IAM Roles, Policies, and S3 Buckets ([Adding an AWS account to nOps with Manual Setup](https://docs.nops.io/en/articles/5964759-adding-an-aws-account-to-nops-with-manual-setup))
+* Manually setting up IAM Roles, Policies, and S3 Buckets ([Adding an AWS account to nOps with Manual Setup](onboarding-aws-with-manual-setup.html))
     
 
-For more information about cloud account configuration, see [Getting Started](https://docs.nops.io/en/collections/2713515-getting-started).
+For more information about cloud account configuration, see [Getting Started](tag_getting_started.html).
 
 The nOps SDK’s Pricing module displays costs for projected resource changes when you use a Terraform project to implement them (It predicts cost changes for Terraform changes).
 

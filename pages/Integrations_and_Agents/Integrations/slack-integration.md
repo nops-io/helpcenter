@@ -21,15 +21,15 @@ nOps supports sending alerts directly to slack.
 Configuring the integration
 ---------------------------
 
-Go to **Settings**
+Go to **OrganizationSettings**
 
-[![](https://downloads.intercomcdn.com/i/o/286261980/fee7b6910f6fb2ddfcf929f9/image.png)](https://downloads.intercomcdn.com/i/o/286261980/fee7b6910f6fb2ddfcf929f9/image.png)
+![](/tmpimg/org-settings.png)
 
 Click on **“Integrations”** in left menu and select **“Slack Integration”**.
 
 Enter **Webhook URL**
 
-[![](https://downloads.intercomcdn.com/i/o/286262088/3fc0d4849cbb294a884efebd/image.png)](https://downloads.intercomcdn.com/i/o/286262088/3fc0d4849cbb294a884efebd/image.png)
+![](/tmpimg/slack-int-info.png)
 
 Enter **“Webhook name”** , its can be any keyword you would like to show on slack channels when a notification arrives.
 
@@ -42,6 +42,6 @@ Sending alerts to Slack
 
 On the **Settings** page. Click on the **Notification Center.**
 
-[![](https://downloads.intercomcdn.com/i/o/287729395/eba5b6b479c65d60a9605634/image.png)](https://downloads.intercomcdn.com/i/o/287729395/eba5b6b479c65d60a9605634/image.png)
+![](/tmpimg/slack-notification-channel.png)
 
 The Slack Channel can have a unique name depending on the Notification channel that is created; **Cost Charges, nOps Rules, Security Dashboard, SOC2 Readiness Report, HIPAA Readiness Report, and CIS Readiness Report.**

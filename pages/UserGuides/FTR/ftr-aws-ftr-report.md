@@ -1,7 +1,7 @@
 ---
 title: Foundational Technical Review Report
-keywords: cost reporting, cost history, cost allocation
-tags: [assessment, reporting]
+keywords: reporting, assessment, compliance
+tags: [compliance, reporting]
 sidebar: mydoc_sidebar
 permalink: ftr-aws-ftr-report.html
 folder: UserGuides
