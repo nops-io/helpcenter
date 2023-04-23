@@ -3,7 +3,7 @@ repository: nops-io/helpcenter
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: nOps Documentation Site
+topnav_title: Documentation Site
 # this appears on the top navigation bar next to the home button
 
 site_title: Documentation site for the nOps platform

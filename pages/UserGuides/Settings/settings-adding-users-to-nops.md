@@ -26,22 +26,20 @@ This admin user can add additional users to the nOps account by following these 
 
 1. Click on **Invite New Member** to add additional team members.
 
-    [![](https://downloads.intercomcdn.com/i/o/286277410/afd0b81d55f75396daf6b9a4/image.png)](https://downloads.intercomcdn.com/i/o/286277410/afd0b81d55f75396daf6b9a4/image.png)
+![](/tmpimg/invite-users.png)
 
 1. Type the team member’s email address which you want to invite to nOps. 
 
 1. Select either “Member” or “Admin user” for the role.
 
-    [![](https://downloads.intercomcdn.com/i/o/286277510/2d6c74c6fc2ab103d2382f35/image.png)](https://downloads.intercomcdn.com/i/o/286277510/2d6c74c6fc2ab103d2382f35/image.png)
+![](/tmpimg/add-user-email.png)
 
 1. Click on **Send Invite**, and the message below will display.
 
-    [![](https://downloads.intercomcdn.com/i/o/286277598/50889bf66e1a5aa80ab80a0a/image.png)](https://downloads.intercomcdn.com/i/o/286277598/50889bf66e1a5aa80ab80a0a/image.png)
-
 The user whose email address is added will receive an invite from nOps.
 
-[![](https://downloads.intercomcdn.com/i/o/286277626/5bd7ecdf422c227c8935ac8f/image.png)](https://downloads.intercomcdn.com/i/o/286277626/5bd7ecdf422c227c8935ac8f/image.png)
+![](/tmpimg/invited.png)
 
 The user can set up their account entering the details as per below screen
 
-[![](https://downloads.intercomcdn.com/i/o/286277674/9c29142074726ed5b1f26298/image.png)](https://downloads.intercomcdn.com/i/o/286277674/9c29142074726ed5b1f26298/image.png)
+![](/tmpimg/invited-user-form.png)

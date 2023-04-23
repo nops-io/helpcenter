@@ -92,6 +92,14 @@ entries:
           url: /sso-onelogin.html
           output: web
 
+  - title: ShareSave
+    output: web
+    folderitems:
+
+    - title: Savings on Auto-Pilot
+      url: /sharesave-overview.html
+      output: web
+
 
   - title: Agents and Integrations
     output: web
@@ -142,13 +150,6 @@ entries:
           url: /webhook-integration.html
           output: web
 
-  - title: ShareSave
-    output: web
-    folderitems:
-
-    - title: Savings on Auto-Pilot
-      url: /sharesave-overview.html
-      output: web
 
   - title: User Guides
     output: web
@@ -201,34 +202,6 @@ entries:
 
         - title: The nOps Data Explorer
           url: /nops-data-explorer.html
-          output: web
-
-      - title: FTR
-        output: web
-        subfolderitems:
-
-        - title: The AWS Foundational Technical Review
-          url: /ftr-aws-foundational-technical-review.html
-          output: web
-
-        - title: The FTR Report
-          url: /ftr-aws-ftr-report.html
-          output: web          
-
-        - title: FTR Question Descriptions
-          url: /ftr-question-descriptions.html
-          output: web  
-
-      - title: MAP
-        output: web
-        subfolderitems:
-
-        - title: Automated Taging for AWS MAP
-          url: /automated-tagging-for-aws-map.html
-          output: web
-
-        - title: Backfill a CUR for AWS MAP
-          url: /backfilling-a-cur-file.html
           output: web
 
       - title: Reports
@@ -299,23 +272,16 @@ entries:
           url: /settings-notification-center.html
           output: web
 
-      - title: Well Architected Framework
-        output: web
-        subfolderitems:
+  - title: Workload
+    output: web
+    folderitems:
 
-        - title: Export a WAFR Report
-          url: /wafr-export.html
-          output: web
+    - title: skip
+      url:
+      output: skip
 
-        - title: WAFR Report
-          url: /wafr-report.html
-          output: web
-
-        - title: WAFR Review
-          url: /wafr-review.html
-          output: web
-
-      - title: Workload
+      subfolders:
+      - title: Workloads
         output: web
         subfolderitems:
 
@@ -341,7 +307,51 @@ entries:
 
         - title: View and Manage Workloads
           url: /workload-view-and-manage.html
+          output: web
+
+      - title: Well Architected Framework
+        output: web
+        subfolderitems:
+
+        - title: Export a WAFR Report
+          url: /wafr-export.html
+          output: web
+
+        - title: WAFR Report
+          url: /wafr-report.html
+          output: web
+
+        - title: WAFR Review
+          url: /wafr-review.html
+          output: web
+
+      - title: MAP
+        output: web
+        subfolderitems:
+
+        - title: Automated Taging for AWS MAP
+          url: /automated-tagging-for-aws-map.html
+          output: web
+
+        - title: Backfill a CUR for AWS MAP
+          url: /backfilling-a-cur-file.html
+          output: web
+
+      - title: FTR
+        output: web
+        subfolderitems:
+
+        - title: The AWS Foundational Technical Review
+          url: /ftr-aws-foundational-technical-review.html
+          output: web
+
+        - title: The FTR Report
+          url: /ftr-aws-ftr-report.html
           output: web          
+
+        - title: FTR Question Descriptions
+          url: /ftr-question-descriptions.html
+          output: web  
 
   - title: Solutions
     output: web

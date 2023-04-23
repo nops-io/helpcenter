@@ -77,7 +77,7 @@ Recommended Instance Reservations
     
 *   If the number of records exceeds the table maximum, click the blue **Download** button to get a CSV that includes the full list of recommendations:
 
-![](/tmpimgDownload-Button.png)
+![](/tmpimg/Download-Button.png)
 
 ### Historical Usage ###
 -----------------------------------------------
@@ -125,23 +125,23 @@ Below the boxes, the **Reserved Instances** list gives RI coverage for AWS accou
 
 ![](/tmpimg/Click-Column-Heading-to-Sort.png)
 
-![](/tmpimg/Click+Hamburger+Symbol+for+Column-Heading+Drop-Down.png)
+![](/tmpimg/ClickHamburger.png)
 
 When you hover over a column heading, then click the symbol that appears, options appear for column sizing:
 
-![](/tmpimg/Coverage+Page+Column+Options.png)
+![](/tmpimg/Coverage-Page-Column-Options.png)
 
 Note that filtering and column-choice options are also in the heading of the drop-down – here’s the filtering option used to show reserved-instance coverage for a specific region:
 
-![](/tmpimg/Column-Heading+Drop-Down+Filter+by+Region+Example.png)
+![](/tmpimg/Filter-by-Region-Example.png)
 
 The column-choice options let you include in the table only the columns of use to you:
 
-![](/tmpimg/Column-Heading+Drop-Down+Choose+Columns.png)
+![](/tmpimg/Column-Heading-Drop-Down-Choose-Columns.png)
 
 Symbols in the column headings show the sorting and filtering that are in effect:
 
-![](/tmpimg/Filtered+by+Region+Sorted+by+Family.png)
+![](/tmpimg/Filtered-by-Region-Sorted-by-Family.png)
 
 Note also the arrow → in the **Action** column, which you can click to view the details page for that account group. More than one account can be included in a group.
 
@@ -149,20 +149,20 @@ The filtering and sorting options you’ve chosen on the main Coverage page pers
 
 Note also the Refresh data button at the upper right:
 
-![](/tmpimg/Refresh+Data+Button.png)
+![](/tmpimg/Refresh-Data-Button.png)
 
 **Reserved Instance Coverage Details**
 --------------------------------------
 
 In the details page, accessed by clicking the arrow in the **Action** column, boxes at the top summarize account, region, OS (platform), etc. of the line you’ve chosen:
 
-![](/tmpimg/Reserved+Instances+Details+Page.png)
+![](/tmpimg/Reserved-Instances-Details-Page.png)
 
 The **Usage Summary** graph shows running and reserved instances in normalized units, over the last 12 hours – though you can change the time period by pulling down the blue button at the right:
 
-![](/tmpimg/Last+12+Hours+Button.png)
+![](/tmpimg/Last-12-Hours-Button.png)
 
-![](/tmpimg/Last+12+Hours+Pull-Down.png)
+![](/tmpimg/Last-12-Hours-Pull-Down.png)
 
 The delta between the Reserved and Running lines in the graph help you understand how much under-provisioned or over-provisioned you are in reserved instances over time.
 
@@ -170,7 +170,7 @@ The delta between the Reserved and Running lines in the graph help you understan
 
 Note the two tabs below the chart that provide tabulated details for reserved and running instances:
 
-![](/tmpimg/Reserved+Instances+Details+-+Running+Instances+Details+Cropped.png)
+![](/tmpimg/Reserved-Instances-Details-Running-Instances-Details-Cropped.png)
 
 And, in the tables under those tabs, the column heads provide the same sorting, filtering, and column-choice abilities as described above for the Coverage page itself. Click on any column heading to sort (repeated clicks change sort order), or hover over any column heading and click the icon that appears to filter, choose columns, and adjust column width.
 

@@ -119,9 +119,9 @@ Cost Details for Resources and Non-resources
 
 You can get details for any Daily Spend value or Total value in the Resources or Non-resources pages by clicking on the value:
 
-![](/tmpimg/See+Details+on+Resources+and+Non-resources.png)
+![](/tmpimg/See-Details.png)
 
-![](/tmpimg/Displayed+Details+on+Resources+and+Non-resources.png)
+![](/tmpimg/Displayed-Details-on-Resources-and-Non-resources.png)
 
 Tags
 ----

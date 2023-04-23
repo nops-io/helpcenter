@@ -21,7 +21,7 @@ You can add new resources to an already existing workload that has been created,
     
 2.  Click on the **Workloads Tab**
     
-    [![](https://downloads.intercomcdn.com/i/o/497597877/96a1248c0cf71f4e49d1447b/image.png)](https://downloads.intercomcdn.com/i/o/497597877/96a1248c0cf71f4e49d1447b/image.png)
+![](/tmpimg/workloads-list.png)
     
 3.  Choose an existing Workload and click the **Edit** button on the right.
     
@@ -30,4 +30,4 @@ You can add new resources to an already existing workload that has been created,
 5.  Add any additional tags then click **Save** to add the resources to the workload.
     
 
-See Also: [How to create Workloads](../create-workloads), and [Viewing and Managing Workloads](../view-and-manage-workloads)
+See Also: [How to create Workloads](/workload-create.html), and [Viewing and Managing Workloads](workload-view-and-manage.html)

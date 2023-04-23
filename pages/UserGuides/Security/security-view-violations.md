@@ -19,6 +19,7 @@ There are lots of security violations that are available across an AWS account f
 
 Go to the **Security** **Dashboard** menu item.
 
-[![](https://downloads.intercomcdn.com/i/o/286790878/ed68467bc08ac726d493379a/image.png)](https://downloads.intercomcdn.com/i/o/286790878/ed68467bc08ac726d493379a/image.png)
+![](/tmpimg/view-security.png)
+
 
 This view will give a Summary of all security violations on your AWS account which can be filtered with these options; **Custom Rules, AWS Account, Cloudformation Stack Name, Tags, Regions, and VPC**

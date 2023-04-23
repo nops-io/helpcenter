@@ -59,21 +59,21 @@ If this is the first time you have created a workload, you will click “**Creat
     *   Select the **Compliance Frameworks** for this workload from the list. This setting is optional.  
         
     
-    [![](https://downloads.intercomcdn.com/i/o/478876013/f77df4982dab99979b475588/image.png)](https://downloads.intercomcdn.com/i/o/478876013/f77df4982dab99979b475588/image.png)
+![](/tmpimg/create-new-workload.png)
     
 3.  If you are using an AWS account select the toggle to change the choices and to allow nOps to find your Resources and save the WAFR compliance progress. Select an **AWS Account** and an **Environment** type and enter a **Description** for the Workload .
     
-    [![](https://downloads.intercomcdn.com/i/o/478876569/96cf77a7c84549a1d076c16f/Screen+Shot+2022-03-11+at+7.56.19+AM.png)](https://downloads.intercomcdn.com/i/o/478876569/96cf77a7c84549a1d076c16f/Screen+Shot+2022-03-11+at+7.56.19+AM.png)
+    ![](/tmpimg/ScreenShot2022-03-11.png)
     
 4.  **Specify the Workload resources** Enter all Regions that nOps will pull resources from. This defaults to All.  
     The **AWS Managed Services** that nOps will include in your workload. This defaults to All Managed Services and  
     Enter **VPCs** that contain the resources that nOps will include in your workload.  
     
-    [![](https://downloads.intercomcdn.com/i/o/478877807/a701503a758ab7d248d83446/image.png)](https://downloads.intercomcdn.com/i/o/478877807/a701503a758ab7d248d83446/image.png)
+    ![](/tmpimg/workload-specify-resources.png)
     
 5.  **Select tags** to be assigned to the resources you want to include, e.g., “ApplicationA.” You can add as many tags as you need.  
     
-    [![](https://downloads.intercomcdn.com/i/o/478878322/5dce017e4a6c91a5575ead88/image.png)](https://downloads.intercomcdn.com/i/o/478878322/5dce017e4a6c91a5575ead88/image.png)
+    ![](/tmpimg/wl-select-tag.png)
     
 6.  Add notes for the workload and click **Save** to save and create this workload.
     

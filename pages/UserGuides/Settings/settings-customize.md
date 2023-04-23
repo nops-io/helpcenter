@@ -16,7 +16,7 @@ The Settings page has multiple areas to setup when first starting with nOps. It 
 
 Go to your profile on top right and click on **Settings**
 
-[![](https://downloads.intercomcdn.com/i/o/301879224/e9469b4664b872570da92cc7/Settings.PNG)](https://downloads.intercomcdn.com/i/o/301879224/e9469b4664b872570da92cc7/Settings.PNG)
+ ![](/tmpimg/org-settings.png)
 
 On the **Settings** page:
 

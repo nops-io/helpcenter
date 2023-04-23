@@ -14,7 +14,7 @@ _API token generation_ Go to settings -> API Key menu item
 
 Click **“Generate API Key”**
 
-[![](https://downloads.intercomcdn.com/i/o/286343453/72c024fa3bd53d786f710205/image.png)](https://downloads.intercomcdn.com/i/o/286343453/72c024fa3bd53d786f710205/image.png)
+![](/tmpimg/gen-api.png)
 
 Copy the key you’ve have.
 
@@ -23,20 +23,20 @@ To use the nOps API, you will need to append your query string in the following 
 **_List workloads_**  
 /nops\_api/v1/workload/?api\_key=&lt;API_KEY&gt;
 
-[![](https://downloads.intercomcdn.com/i/o/286343531/1cfcebcfd35623fd37bce975/image.png)](https://downloads.intercomcdn.com/i/o/286343531/1cfcebcfd35623fd37bce975/image.png)
+![](/tmpimg/list-workloads-api.png)
 
 **_Get specific workload data (with answers data) by its ID:_** /nops\_api/v1/workload/&lt;WORKLOAD\_ID&gt;/?api\_key=&lt;API\_KEY&gt;
 
-[![](https://downloads.intercomcdn.com/i/o/286343568/3e276cb78c255f8567dd9493/image.png)](https://downloads.intercomcdn.com/i/o/286343568/3e276cb78c255f8567dd9493/image.png)
+![](/tmpimg/workload-data-api.png)
 
 **_Get WA summary for a specific workload_** /nops\_api/v1/workload/&lt;WORKLOAD\_ID&gt;/rules\_summary/?api\_key=&lt;API_KEY&gt;
 
-[![](https://downloads.intercomcdn.com/i/o/286343657/4d031eb1bc1ac44249d0d379/image.png)](https://downloads.intercomcdn.com/i/o/286343657/4d031eb1bc1ac44249d0d379/image.png)
+![](/tmpimg/waf-summary-api.png)
 
 **_Get a budget for a specific workload_** /nops\_api/v1/workload/&lt;WORKLOAD\_ID&gt;/budget/?api\_key=&lt;API\_KEY&gt;
 
-[![](https://downloads.intercomcdn.com/i/o/286343691/5247ceb725c092602b15a418/image.png)](https://downloads.intercomcdn.com/i/o/286343691/5247ceb725c092602b15a418/image.png)
+![](/tmpimg/budget-api.png)
 
 **_List attached resources for a specific workload_** /nops\_api/v1/workload/&lt;WORKLOAD\_ID&gt;/resources/?api\_key=&lt;API\_KEY&gt;
 
-[![](https://downloads.intercomcdn.com/i/o/286343739/fbd94a2e711d3335ada2d405/image.png)](https://downloads.intercomcdn.com/i/o/286343739/fbd94a2e711d3335ada2d405/image.png)
+![](/tmpimg/wl-attached-resources-api.png
